@@ -119,12 +119,11 @@ bool Nova::runOnModule(Module &M) {
     if (f == NULL)
         errs() << "f is NULL!" <<"\n";
     Traversal(GS, f);//从main函数开始遍历
+    // errs() << "Points To Map:\n";
+    // PrintPointsToMap(GS);
 
-    errs() << "Points To Map:\n";
-    //PrintPointsToMap(GS);
-
-    errs() << "\nTaint Map:\n";
-    //PrintTaintMap(GS);
+    // errs() << "Taint Map:\n";
+    // PrintTaintMap(GS);
 
     // get initial set of sensitive variables annotated by programmer.
     GetAnnotatedVariables(M, GS);
@@ -399,7 +398,7 @@ void Nova::InitializeGS(GlobalStateRef gs, Module &M) {
 	// filter out .str***, stderr
 	//if (SkipGlobalValue(gv))
 	//	continue;
-
+// errs() << "&&&&&&&&&&&&" <<gv->getGlobalIdentifier() << "\n";
         type = gv->getType();
         //errs() << "GlobalValue gv typeID: " << type->getTypeID() << "\n";
         //errs() << "GlobalValue gv pointee typeID: " << type->getPointerElementType()->getTypeID() << "\n";
@@ -537,7 +536,9 @@ void Nova::HandleCall(GlobalStateRef gs, CallInst &I) {
     }
 }
 
-AliasObject *Nova::CreateAliasObject(Type *type, Value *v) {
+AliasObject *Nova::CreateAliasObject(Type *type, Value *v) {  
+    // std::cout<<"-----------10------------"<<std::endl;
+
     unsigned i;
     Type *subtype;
     AliasObjectRef loc = NULL;// a location object for stack var 
