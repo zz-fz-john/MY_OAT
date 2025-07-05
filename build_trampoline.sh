@@ -1,0 +1,4 @@
+make nova
+make cfv-bellman
+make trampoline
+make lib-a64

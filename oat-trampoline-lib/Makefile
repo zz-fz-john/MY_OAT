@@ -1,6 +1,6 @@
-TEE_PATH ?= /home/yourusername/work/tee-workspace/devel/optee-hikey-debian/
+TEE_PATH ?= /home/zrz0517/OPTEE
 TOOLCHAIN ?= $(TEE_PATH)/toolchains/aarch64/bin/
-TA ?= $(TEE_PATH)/hello_world/ta
+TA ?= $(TEE_PATH)/optee_examples/hello_world/ta
 TEEC_EXPORT ?= $(TEE_PATH)/optee_client/out/export
 CFLAGS += -Wall -I$(TA)/include -I$(TEEC_EXPORT)/include -I./include
 LDADD += -lteec -L$(TEEC_EXPORT)/lib
@@ -30,9 +30,9 @@ lib-aarch64:
 	clang  -fPIC -g -c -Wall cfv_bellman.c
 	clang  -fPIC -g -c -Wall trampoline.S
 	clang -shared -Wl,-soname,libnova.so.1 -o libnova.so.1.0.1 nova.o trampoline.o cfv_bellman.o -lc
-	sudo cp libnova.so.1.0.1 /usr/lib/
-	sudo ln -fs libnova.so.1.0.1 /usr/lib/libnova.so.1
-	sudo ln -fs /usr/lib/libnova.so.1 /usr/lib/libnova.so
+	#sudo cp libnova.so.1.0.1 /usr/lib/
+	#sudo ln -fs libnova.so.1.0.1 /usr/lib/libnova.so.1
+	#sudo ln -fs /usr/lib/libnova.so.1 /usr/lib/libnova.so
 
 softboundcets_rt: softboundcets.h softboundcets-checks.c softboundcets.c softboundcets-wrappers.c
 	clang $(SOFT_CFLAGS) -c softboundcets-checks.c -o softboundcets-checks.o
@@ -43,9 +43,9 @@ softboundcets_rt: softboundcets.h softboundcets-checks.c softboundcets.c softbou
 lib-x64:
 	clang  -fPIC -g -c -Wall nova.c
 	clang -shared -Wl,-soname,libnova.so.1 -o libnova.so.1.0.1 nova.o -lc
-	sudo cp libnova.so.1.0.1 /usr/lib/
-	sudo ln -fs libnova.so.1.0.1 /usr/lib/libnova.so.1
-	sudo ln -fs /usr/lib/libnova.so.1 /usr/lib/libnova.so
+	#sudo cp libnova.so.1.0.1 /usr/lib/
+	#sudo ln -fs libnova.so.1.0.1 /usr/lib/libnova.so.1
+	#sudo ln -fs /usr/lib/libnova.so.1 /usr/lib/libnova.so
 
 sync:
 	cp Makefile ~/work/ra-project/data/runtime/
