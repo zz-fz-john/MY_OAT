@@ -300,9 +300,9 @@ static void trace_cond_event(cfa_ctx_t *ctx, cfa_event_t *evt) {
 static void handle_event(cfa_ctx_t *ctx, cfa_event_t *evt) {
     if (evt->etype == CFV_EVENT_CTRL)
         control_event(ctx, evt);
-    else (evt->etype == CFV_EVENT_HINT_ICALL || evt->etype == CFV_EVENT_HINT_IBR)
+    else if (evt->etype == CFV_EVENT_HINT_ICALL || evt->etype == CFV_EVENT_HINT_IBR)
         trace_addr_event(ctx, evt);
-    else (evt->etype == CFV_EVENT_CONDBR)
+    else if (evt->etype == CFV_EVENT_HINT_CONDBR)
         trace_cond_event(ctx, evt);
     else
         data_event(ctx, evt);
@@ -322,11 +322,11 @@ static TEE_Result verify(uint32_t param_types,
 	if (param_types != exp_param_types)
 		return TEE_ERROR_BAD_PARAMETERS;
 
-    evt.etype = params[0].a;
-    evt.a = params[1].b;
-    evt.a = (evt.a << 32) |params[1].a;
-    evt.b = params[2].b;
-    evt.b = (evt.b << 32) |params[2].a;
+    evt.etype = params[0].value.a;
+    evt.a = params[1].value.b;
+    evt.a = (evt.a << 32) |params[1].value.a;
+    evt.b = params[2].value.b;
+    evt.b = (evt.b << 32) |params[2].value.a;
 
 	/* cfa event dispatcher */
 	handle_event(&cfa_ctx, &evt);
