@@ -26,3 +26,6 @@ cd build/sitl
 
 ##静态链接
 /home/zrz0517/study/chain_attestation/OAT-Project/oat-llvm40/build/bin/clang++   --target=aarch64-linux-gnu  --gcc-toolchain=/home/zrz0517/study/chain_attestation/toolchains/aarch64  --sysroot=/home/zrz0517/study/chain_attestation/toolchains/aarch64/aarch64-linux-gnu/libc -pthread -static arducopter.o   ../../../oat-trampoline-lib/nova.o ../../../oat-trampoline-lib/trampoline.o ../../../oat-trampoline-lib/cfv_bellman.o  -lteec -L/home/zrz0517/OPTEE/optee_client/out/export/lib -o arducopter_OAT
+# 发送
+scp -P 4646 arducopter_OAT  zrz0517@10.204.46.87:/home/zrz0517/study
+scp -P 4646  copter.parm  zrz0517@10.204.46.87:/home/zrz0517/study

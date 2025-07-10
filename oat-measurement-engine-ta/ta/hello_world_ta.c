@@ -311,7 +311,7 @@ static void handle_event(cfa_ctx_t *ctx, cfa_event_t *evt) {
 static TEE_Result verify(uint32_t param_types,
 	TEE_Param params[4])
 {
-	uint32_t exp_param_types = TEE_PARAM_TYPES(TEE_PARAM_TYPE_MEMREF_INOUT,
+	uint32_t exp_param_types = TEE_PARAM_TYPES(TEE_PARAM_TYPE_VALUE_INOUT,
 						   TEE_PARAM_TYPE_VALUE_INOUT,
 						   TEE_PARAM_TYPE_VALUE_INOUT,
 						   TEE_PARAM_TYPE_VALUE_INOUT);

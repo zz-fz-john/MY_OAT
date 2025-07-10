@@ -17,7 +17,7 @@
 
 /* hints related */
 extern FILE *hfp;
-extern bool cfv_start;
+extern __thread bool cfv_start;
 
 void cfv_icall(uint64_t target, uint64_t pc);
 void cfv_ijmp(uint64_t target, uint64_t pc);
