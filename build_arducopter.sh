@@ -29,3 +29,6 @@ cd build/sitl
 # 发送
 scp -P 4646 arducopter_OAT  zrz0517@10.204.46.87:/home/zrz0517/study
 scp -P 4646  copter.parm  zrz0517@10.204.46.87:/home/zrz0517/study
+#使用串口连接后，若ifconfig没有网络，则使用下述命令配置网络
+ifconfig eth0 up              # 启动网卡
+udhcpc -i eth0                # 使用 udhcpc 获取 DHCP 地址
