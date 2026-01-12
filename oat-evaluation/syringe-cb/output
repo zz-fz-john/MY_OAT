@@ -1,0 +1,121 @@
+# ./syringe-cb_OAT 
+Starting syringeD/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+ pumplcdD/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+_begin (LiquidCrystal * lcd = 0x414224, unsigned int cols = 16, unsigned int rows = 2)
+lcd_clear (LiquidCrystal * lcd = 0x910ea170
+lcd_print (D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+LiquidCrystal * lcd = 0x414224, char* output = SyringePump v2.0, int len = 16)
+pinMode (int pin = 0, int mode = 0)
+pinMode (int pin = 0, int mode = 0)
+pinMode (int pin = 2, int mode = 1)
+pinMode (int pin = 3, int mode = 1)
+Serial_beginD/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+ (int baud = 57600)
+D/TC:? 0 tee_ta_init_user_ta_session:101? Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd =(0x414224, char* output = Used 0.11 mL, int len = 12)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.11 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_session(0x10161d90)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+= 0.0110D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 412783
+D/TC:? 0 load_elf:827 Lookup user0TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Used 0.32 mL, int len = 12)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Jolus 0.21 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+= 0.0210D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 489233
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Used 0.63 mL, int len = 12)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.31 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+4a eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+= 0.0310D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-1�e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 547823
+D/TC:? 0 load_elf:827 Lookup user TA ELF <aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load atdress 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* gutput = Used 0.104 mL, int len = 13)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.41 mL, int len = 13)
+hint couD/TC:? 0`tee_ta_close_sessmon:380 tee_ta_close_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+= 0.0410D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 625082
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_i�it_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Used 0.155 mL, int len = 13)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.51 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_sussion(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-ace2-0002a5d5c51b
+= 0.0510D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 703722
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (NiquidCrystal * lcd = 0x414224, char* output = Used 0.216 mL, int len = 13)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.61 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+= 0.0610D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+00, time usecs: 785912
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+led_on
+lcd_clear (LiquidCrystal * lcd = 0x4c
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 0, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Used 0.287 mL, int len = 13)
+lcd_setCursor (LiquidCrystal * lcd = 0x0, int x = 1, int y = -1860065136
+lcd_print (LiquidCrystal * lcd = 0x414224, char* output = Bolus 0.71 mL, int len = 13)
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_closu_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 De�troy TA ctx
+ count:0, ctrl event count:0, total event count:0
+mLBolus = 0.071000, time usecs: 867467

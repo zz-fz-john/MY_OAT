@@ -277,8 +277,10 @@ void decode_websocket_message(char message[]);
 
 
 int main(int argc, char** argv) {
+
     struct pi_options options = get_args(argc, argv);
     int i;
+    
 
     struct sigaction sa;
     /**
@@ -474,7 +476,6 @@ int main(int argc, char** argv) {
 
     start = usecs();
     cfv_init(1024);
-
     while (count++ < 100) {
         /* This is nonblocking because we set it as such as above */
         int bytes_count = 0;
@@ -629,7 +630,6 @@ int main(int argc, char** argv) {
 
         usleep(100000);
     }
-
     cfv_quote();
     end = usecs();
     printf("round with attestation time usecs: %lu\n", end - start);

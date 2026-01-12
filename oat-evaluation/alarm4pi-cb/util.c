@@ -2,7 +2,7 @@
 #include <sys/time.h>
 #include "lib/util.h"
 
-unsigned long usecs() {
+unsigned long usecs_util() {
 	struct timeval start;
 
 	gettimeofday(&start, NULL);

@@ -1,0 +1,111 @@
+# ./light-controller_OAT 
+D/TC:? 0 tee_ta_init_pseudo_ta_session:276 Lookup pseudo TA 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (Secure Storage TA)
+D/TC:? 0 load_elf:827 Lookup user TA ELF 8aaaf200-2450-11e4-abe2-0002a5d5c51b (REE)
+D/TC:? 0 load_elf_from_store:795 ELF load address 0x4000a000
+D/TC:? 0 tee_ta_init_user_ta_session:1017 Processing relocations in 8aaaf200-2450-11e4-abe2-0002a5d5c51b
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:comman�;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selfleqrning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+ listen_to_events 
+ device none
+ device none
+ device none
+ device none
+            Turn on 6
+IGNORED
+Turn on 7
+IGNORED
+II 0 0 class:command;protocol:arctech;model:selflearning;house:11799578;unit:12;group:0;method:turnon;
+hint couD/TC:? 0 tee_ta_close_session:380 tee_ta_close_session(0x10161780)
+nt:0, daD/TC:? 0 tee_ta_close_session:399 Destroy session
+ta eventD/TC:? 0 tee_ta_close_session:425 Destroy TA ctx
+ count:0, ctrl event count:0, total event count:0
+round with attestation time usecs: 834680

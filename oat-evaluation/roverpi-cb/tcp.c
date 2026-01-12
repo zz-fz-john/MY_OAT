@@ -36,7 +36,7 @@ void *tcpListener(void *arg){
 	listen(sockfd,5);
        printf("%s %d\n",__func__, __LINE__);
 	clilen = sizeof(cli_addr);
-	delay(2000);
+	usleep(200 * 1000);
 	newsockfd = accept(sockfd,(struct sockaddr *) &cli_addr,&clilen);
        printf("%s %d\n",__func__, __LINE__);
 	if (newsockfd < 0)

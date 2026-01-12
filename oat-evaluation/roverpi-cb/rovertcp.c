@@ -2,21 +2,38 @@
 // Rover.cpp : Defines the entry point for the console application.
 // gcc -o rover.out -lwiringPi -lm -pthread rover.c Compass.h gps.h
 #include <stdio.h>
-#include <wiringPi.h>
-#include <pthread.h>
+// #include <wiringPi.h>
+// #include <pthread.h>
 #include "tcp.h"
 #include "cfv_bellman.h"
 
+#include <unistd.h>
+#include "lib/util.h"
 #define MOTOR_RIGHT_A	0
 #define MOTOR_RIGHT_B	2
 #define MOTOR_LEFT_A	3
 #define MOTOR_LEFT_B	4
 
+enum{PUSH,PULL}; //syringe movement direction
+
+enum{MAIN, BOLUS_MENU}; //UI states
+
+
+
+enum{INPUT, OUTPUT}; //GPIO directions
+
+enum{HIGH, LOW}; //GPIO states
 #define Stop_All_Motors()	digitalWrite(MOTOR_RIGHT_A,0);\
 				digitalWrite(MOTOR_RIGHT_B,0);\
 				digitalWrite(MOTOR_LEFT_A,0);\
 				digitalWrite(MOTOR_LEFT_B,0);
+extern char mode;
 
+extern int portno;
+
+extern int newsockfd;
+
+extern int n ;
 int main(int argc, char **argv)
 {
 	mode = 0xff;
@@ -26,7 +43,8 @@ int main(int argc, char **argv)
 
 	printf("What port do you want to open?\n");
 	scanf("%d",&portno);
-
+	portno=3000;
+	long long int  total=0;
 	//pthread_t tcp;
 	//pthread_create(&tcp, NULL,tcpListener,"");
 
@@ -37,11 +55,13 @@ int main(int argc, char **argv)
 	pinMode(MOTOR_RIGHT_B,OUTPUT);
 	/*Starts Main Loop*/
 	printf("Starting Mainloop!\n");
+    
     start = usecs();
     cfv_init(1024);
     
        printf("%s %d\n",__func__, __LINE__);
 	while (count++ < 1) {
+
        printf("%s %d\n",__func__, __LINE__);
 		tcpListener(NULL);
        printf("%s %d\n",__func__, __LINE__);
@@ -74,11 +94,14 @@ int main(int argc, char **argv)
 			digitalWrite(MOTOR_RIGHT_B,1);
 			digitalWrite(MOTOR_LEFT_A,1);
 		}
-		delay(500);
+
+		usleep(500 * 1000);
 	}
-    cfv_quote();
-    end = usecs();
-    printf("round with attestation time usecs: %lu\n", end - start);
+    
+	cfv_quote();
+	end = usecs();
+	total+=end - start;
+    printf("round with attestation total time usecs: %lu\n",end - start);
 
 	Stop_All_Motors();
 	return 0;

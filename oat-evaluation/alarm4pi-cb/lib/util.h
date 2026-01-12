@@ -2,4 +2,4 @@
  * Utility API
  */
 
-unsigned long usecs();
+unsigned long usecs_util();

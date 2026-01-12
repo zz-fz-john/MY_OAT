@@ -122,17 +122,17 @@ int main(int argc, char *argv[])
       if(setenv(WSERVER_ENV_VAR_NAME, WSERVER_ENV_VAR_VAL, 0) != 0)
          log_printf("Error setting envoronment variable for child process. Errno=%i\n", errno);
 
-     // if(run_background_command(&capture_proc, Capture_exec_args[0], Capture_exec_args)==0)
-     //   {
-     //    Child_process_id[0]=capture_proc;
-     //    log_printf("Child process %s executed\n", Capture_exec_args[0]);
-     //    if(run_background_command(&web_server_proc, Web_server_exec_args[0], Web_server_exec_args)==0)
-     //      {
-     //       Child_process_id[1]=web_server_proc;
+     if(run_background_command(&capture_proc, Capture_exec_args[0], Capture_exec_args)==0)
+       {
+        Child_process_id[0]=capture_proc;
+        log_printf("Child process %s executed\n", Capture_exec_args[0]);
+        if(run_background_command(&web_server_proc, Web_server_exec_args[0], Web_server_exec_args)==0)
+          {
+           Child_process_id[1]=web_server_proc;
 
-     //       log_printf("Child process %s executed\n", Web_server_exec_args[0]);
-     //     }
-     //   }
+           log_printf("Child process %s executed\n", Web_server_exec_args[0]);
+         }
+       }
       main_err = init_polling(&Exit_daemon_loop, "Server: http://%s:"WEB_SERVER_PORT);
       if(main_err == 0) // Success
         {

@@ -4,7 +4,7 @@
 
 #define INT_MAX 2147483647
 
-void pinMode(int pin, int mode);
+void pinMode(int pin, int mode1);
 void digitalWrite(int pin, int value);
 int digitalRead(int pin);
 int analogRead(int pin);
@@ -15,7 +15,6 @@ int Serial_read();
 int Serial_write(char* output, int len);
 
 unsigned long millis();
-// unsigned long usecs();
 void delayMicroseconds(float usecs);
 
 int toUInt(char* input, int len);

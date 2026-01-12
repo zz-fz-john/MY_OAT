@@ -1,0 +1,112 @@
+entry llvm.var.annotation: arg0: last 
+entry entry entry entry while.cond while.body entry if.then entry if.end if.then8 entry if.end9 if.then18 entry if.end19 while.cond while.body while.end if.then entry entry entry entry if.end40 if.else if.then17 entry entry if.end39 if.else19 if.then23 entry entry if.end38 if.else25 if.then29 entry entry if.end37 if.else31 if.then35 entry entry if.end while.end entry entry entry entry llvm.global.annotations: var0 : n
+llvm.global.annotations: var1 : newsockfd
+llvm.global.annotations: var2 : portno
+llvm.global.annotations: var3 : 
+llvm.global.annotations: var4 : n
+llvm.global.annotations: var5 : newsockfd
+llvm.global.annotations: var6 : portno
+llvm.global.annotations: var7 : 
+NOTE: can't find tupleSet in pointsToMap for v = i8 0 added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+List PointsToMap vars:
+senVarSet : 
+last
+RecordDefineEvent: UoV:  store i8 %4, i8* %last, align 1, !dbg !133
+RecordDefineEvent: Inst:  store i8 %4, i8* %last, align 1, !dbg !133
+RecordDefineEvent: UoV:  %2 = load i8, i8* %last, align 1, !dbg !119
+RecordDefineEvent: Inst:  %2 = load i8, i8* %last, align 1, !dbg !119
+RecordDefineEvent: UoV:  store i8 %0, i8* %last, align 1, !dbg !85
+RecordDefineEvent: Inst:  store i8 %0, i8* %last, align 1, !dbg !85
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %last, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.7, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.1.8, i32 0, i32 0), i32 40), !dbg !86
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %last, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.7, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.1.8, i32 0, i32 0), i32 40), !dbg !86
+mode
+RecordDefineEvent: UoV:  %8 = load i8, i8* @mode, align 1, !dbg !162
+RecordDefineEvent: Inst:  %8 = load i8, i8* @mode, align 1, !dbg !162
+RecordDefineEvent: UoV:  %7 = load i8, i8* @mode, align 1, !dbg !153
+RecordDefineEvent: Inst:  %7 = load i8, i8* @mode, align 1, !dbg !153
+RecordDefineEvent: UoV:  %6 = load i8, i8* @mode, align 1, !dbg !144
+RecordDefineEvent: Inst:  %6 = load i8, i8* @mode, align 1, !dbg !144
+RecordDefineEvent: UoV:  %5 = load i8, i8* @mode, align 1, !dbg !135
+RecordDefineEvent: Inst:  %5 = load i8, i8* @mode, align 1, !dbg !135
+RecordDefineEvent: UoV:  %4 = load i8, i8* @mode, align 1, !dbg !132
+RecordDefineEvent: Inst:  %4 = load i8, i8* @mode, align 1, !dbg !132
+RecordDefineEvent: UoV:  %3 = load i8, i8* @mode, align 1, !dbg !121
+RecordDefineEvent: Inst:  %3 = load i8, i8* @mode, align 1, !dbg !121
+RecordDefineEvent: UoV:  %0 = load i8, i8* @mode, align 1, !dbg !87
+RecordDefineEvent: Inst:  %0 = load i8, i8* @mode, align 1, !dbg !87
+RecordDefineEvent: UoV:  store i8 -1, i8* @mode, align 1, !dbg !83
+RecordDefineEvent: Inst:  store i8 -1, i8* @mode, align 1, !dbg !83
+RecordDefineEvent: UoV:{ i8*, i8*, i8*, i32 } { i8* @mode, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.7, i32 0, i32 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.11, i32 0, i32 0), i32 10 }
+RecordDefineEvent: UoV:  store i8 %11, i8* @mode, align 1, !dbg !170
+RecordDefineEvent: Inst:  store i8 %11, i8* @mode, align 1, !dbg !170
+RecordDefineEvent: UoV:{ i8*, i8*, i8*, i32 } { i8* @mode, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.5, i32 0, i32 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.6, i32 0, i32 0), i32 10 }
+buffer
+RecordDefineEvent: UoV:  %arrayidx25 = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i64 0, i64 0, !dbg !171
+RecordDefineEvent: Inst:  %arrayidx25 = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i64 0, i64 0, !dbg !171
+RecordDefineEvent: UoV:  %arrayidx = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i64 0, i64 0, !dbg !169
+RecordDefineEvent: Inst:  %arrayidx = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i64 0, i64 0, !dbg !169
+RecordDefineEvent: UoV:  %arraydecay23 = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i32 0, i32 0, !dbg !166
+RecordDefineEvent: Inst:  %arraydecay23 = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i32 0, i32 0, !dbg !166
+RecordDefineEvent: UoV:  %arraydecay = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i32 0, i32 0, !dbg !163
+RecordDefineEvent: Inst:  %arraydecay = getelementptr inbounds [5 x i8], [5 x i8]* %buffer, i32 0, i32 0, !dbg !163
+n
+RecordDefineEvent: UoV:  store i32 %call24, i32* @n, align 4, !dbg !168
+RecordDefineEvent: Inst:  store i32 %call24, i32* @n, align 4, !dbg !168
+RecordDefineEvent: UoV:i8* bitcast (i32* @n to i8*)
+newsockfd
+RecordDefineEvent: UoV:  %13 = load i32, i32* @newsockfd, align 4, !dbg !177
+RecordDefineEvent: Inst:  %13 = load i32, i32* @newsockfd, align 4, !dbg !177
+RecordDefineEvent: UoV:  %10 = load i32, i32* @newsockfd, align 4, !dbg !165
+RecordDefineEvent: Inst:  %10 = load i32, i32* @newsockfd, align 4, !dbg !165
+RecordDefineEvent: UoV:  %8 = load i32, i32* @newsockfd, align 4, !dbg !152
+RecordDefineEvent: Inst:  %8 = load i32, i32* @newsockfd, align 4, !dbg !152
+RecordDefineEvent: UoV:  store i32 %call14, i32* @newsockfd, align 4, !dbg !150
+RecordDefineEvent: Inst:  store i32 %call14, i32* @newsockfd, align 4, !dbg !150
+RecordDefineEvent: UoV:i8* bitcast (i32* @newsockfd to i8*)
+portno
+RecordDefineEvent: UoV:  store i32 3000, i32* @portno, align 4, !dbg !97
+RecordDefineEvent: Inst:  store i32 3000, i32* @portno, align 4, !dbg !97
+RecordDefineEvent: UoV:  %call1 = call i32 (i8*, ...) @__isoc99_scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.3.10, i32 0, i32 0), i32* @portno), !dbg !96
+RecordDefineEvent: Inst:  %call1 = call i32 (i8*, ...) @__isoc99_scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.3.10, i32 0, i32 0), i32* @portno), !dbg !96
+RecordDefineEvent: UoV:  %2 = load i32, i32* @portno, align 4, !dbg !129
+RecordDefineEvent: Inst:  %2 = load i32, i32* @portno, align 4, !dbg !129
+RecordDefineEvent: UoV:i8* bitcast (i32* @portno to i8*)
+
+RecordDefineEvent: UoV:  call void @llvm.memset.p0i8.i64(i8* %arraydecay, i8 0, i64 5, i32 1, i1 false), !dbg !163
+RecordDefineEvent: Inst:  call void @llvm.memset.p0i8.i64(i8* %arraydecay, i8 0, i64 5, i32 1, i1 false), !dbg !163
+RecordDefineEvent: UoV:  call void @llvm.memset.p0i8.i64(i8* %1, i8 0, i64 16, i32 4, i1 false), !dbg !123
+RecordDefineEvent: Inst:  call void @llvm.memset.p0i8.i64(i8* %1, i8 0, i64 16, i32 4, i1 false), !dbg !123
+RecordDefineEvent: UoV:@mode = common global i8 0, align 1, !dbg !47
+arraydecay
+RecordDefineEvent: UoV:  call void @llvm.memset.p0i8.i64(i8* %arraydecay, i8 0, i64 5, i32 1, i1 false), !dbg !163
+RecordDefineEvent: Inst:  call void @llvm.memset.p0i8.i64(i8* %arraydecay, i8 0, i64 5, i32 1, i1 false), !dbg !163
+arraydecay23
+RecordDefineEvent: UoV:  %call24 = call i32 @read(i32 %10, i8* %arraydecay23, i64 4), !dbg !167
+RecordDefineEvent: Inst:  %call24 = call i32 @read(i32 %10, i8* %arraydecay23, i64 4), !dbg !167
+arrayidx
+RecordDefineEvent: UoV:  %11 = load i8, i8* %arrayidx, align 1, !dbg !169
+RecordDefineEvent: Inst:  %11 = load i8, i8* %arrayidx, align 1, !dbg !169
+arrayidx25
+RecordDefineEvent: UoV:  %12 = load i8, i8* %arrayidx25, align 1, !dbg !171
+RecordDefineEvent: Inst:  %12 = load i8, i8* %arrayidx25, align 1, !dbg !171
+
+define_event_count: 7
+
+use_event_count: 14
+process function: tcpError
+process function: tcpListener
+process function: main
+process function: pinMode
+process function: digitalRead
+process function: digitalWrite
+process function: Serial_begin
+process function: Serial_available
+process function: Serial_read
+process function: Serial_write
+process function: analogRead
+process function: millis
+process function: delayMicroseconds
+process function: toUInt

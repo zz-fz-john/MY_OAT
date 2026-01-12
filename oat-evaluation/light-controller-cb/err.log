@@ -1,0 +1,315 @@
+entry for.cond for.body entry llvm.var.annotation: arg0: memory_added_pattern 
+for.cond for.body llvm.var.annotation: arg0: device_routing2 
+if.then for.cond7 for.body9 for.inc for.end llvm.var.annotation: arg0: method12 
+if.then15 if.end if.end19 if.then21 for.inc57 if.end23 if.then27 llvm.var.annotation: arg0: method_start2829 
+if.then33 if.then36 if.end38 if.end55 if.end56 if.else if.else39 if.then42 if.then48 if.end51 if.end54 if.else49 if.else52 for.end59 if.then61 entry for.cond for.body for.cond1 for.body3 if.then for.end if.then18 if.then22 if.end31 if.end32 for.inc33 if.else if.then27 if.end30 if.end if.end7 if.then10 if.end11 if.then15 if.end16 for.inc if.then6 for.end35 if.end62 for.inc for.end  added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+List PointsToMap vars:
+senVarSet : 
+memory_added_pattern
+RecordDefineEvent: UoV:  %44 = load i8, i8* %memory_added_pattern, align 1, !dbg !317
+RecordDefineEvent: Inst:  %44 = load i8, i8* %memory_added_pattern, align 1, !dbg !317
+RecordDefineEvent: UoV:  store i8 1, i8* %memory_added_pattern, align 1, !dbg !241
+RecordDefineEvent: Inst:  store i8 1, i8* %memory_added_pattern, align 1, !dbg !241
+RecordDefineEvent: UoV:  store i8 0, i8* %memory_added_pattern, align 1, !dbg !160
+RecordDefineEvent: Inst:  store i8 0, i8* %memory_added_pattern, align 1, !dbg !160
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %memory_added_pattern, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 202), !dbg !161
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %memory_added_pattern, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 202), !dbg !161
+device_routing2
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %device_routing2, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 207), !dbg !177
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %device_routing2, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 207), !dbg !177
+device_routing
+RecordDefineEvent: UoV:  %40 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !296
+RecordDefineEvent: Inst:  %40 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !296
+RecordDefineEvent: UoV:  %38 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !292
+RecordDefineEvent: Inst:  %38 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !292
+RecordDefineEvent: UoV:  %35 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !275
+RecordDefineEvent: Inst:  %35 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !275
+RecordDefineEvent: UoV:  %33 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !271
+RecordDefineEvent: Inst:  %33 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !271
+RecordDefineEvent: UoV:  %27 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !253
+RecordDefineEvent: Inst:  %27 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !253
+RecordDefineEvent: UoV:  %24 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !243
+RecordDefineEvent: Inst:  %24 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !243
+RecordDefineEvent: UoV:  %21 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !238
+RecordDefineEvent: Inst:  %21 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !238
+RecordDefineEvent: UoV:  %7 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !187
+RecordDefineEvent: Inst:  %7 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !187
+RecordDefineEvent: UoV:  %4 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !182
+RecordDefineEvent: Inst:  %4 = load %struct.RoutedDevice*, %struct.RoutedDevice** %device_routing, align 8, !dbg !182
+RecordDefineEvent: UoV:  store %struct.RoutedDevice* %arrayidx, %struct.RoutedDevice** %device_routing, align 8, !dbg !176
+RecordDefineEvent: Inst:  store %struct.RoutedDevice* %arrayidx, %struct.RoutedDevice** %device_routing, align 8, !dbg !176
+RecordDefineEvent: UoV:  %device_routing2 = bitcast %struct.RoutedDevice** %device_routing to i8*, !dbg !177
+RecordDefineEvent: Inst:  %device_routing2 = bitcast %struct.RoutedDevice** %device_routing to i8*, !dbg !177
+DEVICE_ROUTINGS
+RecordDefineEvent: UoV:  %arrayidx = getelementptr inbounds [20 x %struct.RoutedDevice], [20 x %struct.RoutedDevice]* @DEVICE_ROUTINGS, i64 0, i64 %3, !dbg !179
+RecordDefineEvent: Inst:  %arrayidx = getelementptr inbounds [20 x %struct.RoutedDevice], [20 x %struct.RoutedDevice]* @DEVICE_ROUTINGS, i64 0, i64 %3, !dbg !179
+method12
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %method12, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 214), !dbg !224
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %method12, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 214), !dbg !224
+method
+RecordDefineEvent: UoV:  %20 = load i32, i32* %method, align 4, !dbg !237
+RecordDefineEvent: Inst:  %20 = load i32, i32* %method, align 4, !dbg !237
+RecordDefineEvent: UoV:  store i32 2, i32* %method, align 4, !dbg !230
+RecordDefineEvent: Inst:  store i32 2, i32* %method, align 4, !dbg !230
+RecordDefineEvent: UoV:  store i32 1, i32* %method, align 4, !dbg !223
+RecordDefineEvent: Inst:  store i32 1, i32* %method, align 4, !dbg !223
+RecordDefineEvent: UoV:  %method12 = bitcast i32* %method to i8*, !dbg !224
+RecordDefineEvent: Inst:  %method12 = bitcast i32* %method to i8*, !dbg !224
+method_start2829
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %method_start2829, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 227), !dbg !262
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %method_start2829, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.8, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.9, i32 0, i32 0), i32 227), !dbg !262
+method_start28
+RecordDefineEvent: UoV:  %37 = load i8*, i8** %method_start28, align 8, !dbg !285
+RecordDefineEvent: Inst:  %37 = load i8*, i8** %method_start28, align 8, !dbg !285
+RecordDefineEvent: UoV:  %32 = load i8*, i8** %method_start28, align 8, !dbg !266
+RecordDefineEvent: Inst:  %32 = load i8*, i8** %method_start28, align 8, !dbg !266
+RecordDefineEvent: UoV:  store i8* %add.ptr30, i8** %method_start28, align 8, !dbg !261
+RecordDefineEvent: Inst:  store i8* %add.ptr30, i8** %method_start28, align 8, !dbg !261
+RecordDefineEvent: UoV:  %method_start2829 = bitcast i8** %method_start28 to i8*, !dbg !262
+RecordDefineEvent: Inst:  %method_start2829 = bitcast i8** %method_start28 to i8*, !dbg !262
+data.addr
+RecordDefineEvent: UoV:  %48 = load i8*, i8** %data.addr, align 8, !dbg !326
+RecordDefineEvent: Inst:  %48 = load i8*, i8** %data.addr, align 8, !dbg !326
+RecordDefineEvent: UoV:  %42 = load i8*, i8** %data.addr, align 8, !dbg !306
+RecordDefineEvent: Inst:  %42 = load i8*, i8** %data.addr, align 8, !dbg !306
+RecordDefineEvent: UoV:  %30 = load i8*, i8** %data.addr, align 8, !dbg !263
+RecordDefineEvent: Inst:  %30 = load i8*, i8** %data.addr, align 8, !dbg !263
+RecordDefineEvent: UoV:  %26 = load i8*, i8** %data.addr, align 8, !dbg !251
+RecordDefineEvent: Inst:  %26 = load i8*, i8** %data.addr, align 8, !dbg !251
+RecordDefineEvent: UoV:  %10 = load i8*, i8** %data.addr, align 8, !dbg !196
+RecordDefineEvent: Inst:  %10 = load i8*, i8** %data.addr, align 8, !dbg !196
+RecordDefineEvent: UoV:  %6 = load i8*, i8** %data.addr, align 8, !dbg !185
+RecordDefineEvent: Inst:  %6 = load i8*, i8** %data.addr, align 8, !dbg !185
+RecordDefineEvent: UoV:  store i8* %data, i8** %data.addr, align 8
+RecordDefineEvent: Inst:  store i8* %data, i8** %data.addr, align 8
+data
+RecordDefineEvent: UoV:  %arraydecay = getelementptr inbounds [96 x i8], [96 x i8]* %data, i32 0, i32 0, !dbg !155
+RecordDefineEvent: Inst:  %arraydecay = getelementptr inbounds [96 x i8], [96 x i8]* %data, i32 0, i32 0, !dbg !155
+RecordDefineEvent: UoV:  %0 = bitcast [96 x i8]* %data to i8*, !dbg !142
+RecordDefineEvent: Inst:  %0 = bitcast [96 x i8]* %data to i8*, !dbg !142
+data
+RecordDefineEvent: UoV:  %recptrtoint36 = ptrtoint i8* %data to i64
+RecordDefineEvent: Inst:  %recptrtoint36 = ptrtoint i8* %data to i64
+RecordDefineEvent: UoV:  store i8* %data, i8** %data.addr, align 8
+RecordDefineEvent: Inst:  store i8* %data, i8** %data.addr, align 8
+method_start
+RecordDefineEvent: UoV:  %18 = load i8*, i8** %method_start, align 8, !dbg !225
+RecordDefineEvent: Inst:  %18 = load i8*, i8** %method_start, align 8, !dbg !225
+RecordDefineEvent: UoV:  store i8* %add.ptr, i8** %method_start, align 8, !dbg !195
+RecordDefineEvent: Inst:  store i8* %add.ptr, i8** %method_start, align 8, !dbg !195
+targetDevice
+RecordDefineEvent: UoV:  %25 = load i32, i32* %targetDevice, align 8, !dbg !245
+RecordDefineEvent: Inst:  %25 = load i32, i32* %targetDevice, align 8, !dbg !245
+
+RecordDefineEvent: UoV:  %chkptrtoint44 = ptrtoint i8* %26 to i64
+RecordDefineEvent: Inst:  %chkptrtoint44 = ptrtoint i8* %26 to i64
+RecordDefineEvent: UoV:  %call25 = call i32 @strncmp(i8* %26, i8* %28, i64 %29) #7, !dbg !256
+RecordDefineEvent: Inst:  %call25 = call i32 @strncmp(i8* %26, i8* %28, i64 %29) #7, !dbg !256
+
+RecordDefineEvent: UoV:  %chkptrtoint14 = ptrtoint %struct.RoutedDevice* %27 to i64
+RecordDefineEvent: Inst:  %chkptrtoint14 = ptrtoint %struct.RoutedDevice* %27 to i64
+RecordDefineEvent: UoV:  %switchPrefix24 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %27, i32 0, i32 2, !dbg !254
+RecordDefineEvent: Inst:  %switchPrefix24 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %27, i32 0, i32 2, !dbg !254
+switchPrefix24
+RecordDefineEvent: UoV:  %28 = load i8*, i8** %switchPrefix24, align 8, !dbg !254
+RecordDefineEvent: Inst:  %28 = load i8*, i8** %switchPrefix24, align 8, !dbg !254
+
+RecordDefineEvent: UoV:  %chkptrtoint42 = ptrtoint i8* %30 to i64
+RecordDefineEvent: Inst:  %chkptrtoint42 = ptrtoint i8* %30 to i64
+RecordDefineEvent: UoV:  %add.ptr30 = getelementptr inbounds i8, i8* %30, i64 %31, !dbg !265
+RecordDefineEvent: Inst:  %add.ptr30 = getelementptr inbounds i8, i8* %30, i64 %31, !dbg !265
+add.ptr30
+RecordDefineEvent: UoV:  %recptrtoint30 = ptrtoint i8* %add.ptr30 to i64
+RecordDefineEvent: Inst:  %recptrtoint30 = ptrtoint i8* %add.ptr30 to i64
+RecordDefineEvent: UoV:  store i8* %add.ptr30, i8** %method_start28, align 8, !dbg !261
+RecordDefineEvent: Inst:  store i8* %add.ptr30, i8** %method_start28, align 8, !dbg !261
+
+RecordDefineEvent: UoV:  %chkptrtoint34 = ptrtoint i8* %32 to i64
+RecordDefineEvent: Inst:  %chkptrtoint34 = ptrtoint i8* %32 to i64
+RecordDefineEvent: UoV:  %call31 = call i32 @strcmp(i8* %32, i8* getelementptr inbounds ([15 x i8], [15 x i8]* @METHOD_TURNON, i32 0, i32 0)) #7, !dbg !268
+RecordDefineEvent: Inst:  %call31 = call i32 @strcmp(i8* %32, i8* getelementptr inbounds ([15 x i8], [15 x i8]* @METHOD_TURNON, i32 0, i32 0)) #7, !dbg !268
+arrayidx
+RecordDefineEvent: UoV:  %recptrtoint4 = ptrtoint %struct.RoutedDevice* %arrayidx to i64
+RecordDefineEvent: Inst:  %recptrtoint4 = ptrtoint %struct.RoutedDevice* %arrayidx to i64
+RecordDefineEvent: UoV:  store %struct.RoutedDevice* %arrayidx, %struct.RoutedDevice** %device_routing, align 8, !dbg !176
+RecordDefineEvent: Inst:  store %struct.RoutedDevice* %arrayidx, %struct.RoutedDevice** %device_routing, align 8, !dbg !176
+
+RecordDefineEvent: UoV:  %chkptrtoint22 = ptrtoint %struct.RoutedDevice* %4 to i64
+RecordDefineEvent: Inst:  %chkptrtoint22 = ptrtoint %struct.RoutedDevice* %4 to i64
+RecordDefineEvent: UoV:  %switchPrefix = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %4, i32 0, i32 2, !dbg !183
+RecordDefineEvent: Inst:  %switchPrefix = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %4, i32 0, i32 2, !dbg !183
+switchPrefix
+RecordDefineEvent: UoV:  %5 = load i8*, i8** %switchPrefix, align 8, !dbg !183
+RecordDefineEvent: Inst:  %5 = load i8*, i8** %switchPrefix, align 8, !dbg !183
+
+RecordDefineEvent: UoV:  %chkptrtoint48 = ptrtoint i8* %6 to i64
+RecordDefineEvent: Inst:  %chkptrtoint48 = ptrtoint i8* %6 to i64
+RecordDefineEvent: UoV:  %call5 = call i32 @strncmp(i8* %6, i8* %8, i64 %9) #7, !dbg !190
+RecordDefineEvent: Inst:  %call5 = call i32 @strncmp(i8* %6, i8* %8, i64 %9) #7, !dbg !190
+
+RecordDefineEvent: UoV:  %chkptrtoint20 = ptrtoint %struct.RoutedDevice* %7 to i64
+RecordDefineEvent: Inst:  %chkptrtoint20 = ptrtoint %struct.RoutedDevice* %7 to i64
+RecordDefineEvent: UoV:  %switchPrefix4 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %7, i32 0, i32 2, !dbg !188
+RecordDefineEvent: Inst:  %switchPrefix4 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %7, i32 0, i32 2, !dbg !188
+switchPrefix4
+RecordDefineEvent: UoV:  %8 = load i8*, i8** %switchPrefix4, align 8, !dbg !188
+RecordDefineEvent: Inst:  %8 = load i8*, i8** %switchPrefix4, align 8, !dbg !188
+
+RecordDefineEvent: UoV:  %chkptrtoint46 = ptrtoint i8* %10 to i64
+RecordDefineEvent: Inst:  %chkptrtoint46 = ptrtoint i8* %10 to i64
+RecordDefineEvent: UoV:  %add.ptr = getelementptr inbounds i8, i8* %10, i64 %11, !dbg !198
+RecordDefineEvent: Inst:  %add.ptr = getelementptr inbounds i8, i8* %10, i64 %11, !dbg !198
+add.ptr
+RecordDefineEvent: UoV:  %recptrtoint50 = ptrtoint i8* %add.ptr to i64
+RecordDefineEvent: Inst:  %recptrtoint50 = ptrtoint i8* %add.ptr to i64
+RecordDefineEvent: UoV:  store i8* %add.ptr, i8** %method_start, align 8, !dbg !195
+RecordDefineEvent: Inst:  store i8* %add.ptr, i8** %method_start, align 8, !dbg !195
+
+RecordDefineEvent: UoV:  %chkptrtoint52 = ptrtoint i8* %18 to i64
+RecordDefineEvent: Inst:  %chkptrtoint52 = ptrtoint i8* %18 to i64
+RecordDefineEvent: UoV:  %call13 = call i32 @strcmp(i8* %18, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !227
+RecordDefineEvent: Inst:  %call13 = call i32 @strcmp(i8* %18, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !227
+
+RecordDefineEvent: UoV:  %chkptrtoint18 = ptrtoint %struct.RoutedDevice* %21 to i64
+RecordDefineEvent: Inst:  %chkptrtoint18 = ptrtoint %struct.RoutedDevice* %21 to i64
+RecordDefineEvent: UoV:  %switchPrefix18 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %21, i32 0, i32 2, !dbg !239
+RecordDefineEvent: Inst:  %switchPrefix18 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %21, i32 0, i32 2, !dbg !239
+switchPrefix18
+RecordDefineEvent: UoV:  %22 = load i8*, i8** %switchPrefix18, align 8, !dbg !239
+RecordDefineEvent: Inst:  %22 = load i8*, i8** %switchPrefix18, align 8, !dbg !239
+
+RecordDefineEvent: UoV:  %chkptrtoint16 = ptrtoint %struct.RoutedDevice* %24 to i64
+RecordDefineEvent: Inst:  %chkptrtoint16 = ptrtoint %struct.RoutedDevice* %24 to i64
+RecordDefineEvent: UoV:  %targetDevice = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %24, i32 0, i32 0, !dbg !245
+RecordDefineEvent: Inst:  %targetDevice = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %24, i32 0, i32 0, !dbg !245
+
+RecordDefineEvent: UoV:  %chkptrtoint12 = ptrtoint %struct.RoutedDevice* %33 to i64
+RecordDefineEvent: Inst:  %chkptrtoint12 = ptrtoint %struct.RoutedDevice* %33 to i64
+RecordDefineEvent: UoV:  %targetDevice34 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %33, i32 0, i32 0, !dbg !273
+RecordDefineEvent: Inst:  %targetDevice34 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %33, i32 0, i32 0, !dbg !273
+targetDevice34
+RecordDefineEvent: UoV:  %34 = load i32, i32* %targetDevice34, align 8, !dbg !273
+RecordDefineEvent: Inst:  %34 = load i32, i32* %targetDevice34, align 8, !dbg !273
+
+RecordDefineEvent: UoV:  %chkptrtoint10 = ptrtoint %struct.RoutedDevice* %35 to i64
+RecordDefineEvent: Inst:  %chkptrtoint10 = ptrtoint %struct.RoutedDevice* %35 to i64
+RecordDefineEvent: UoV:  %react = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %35, i32 0, i32 1, !dbg !277
+RecordDefineEvent: Inst:  %react = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %35, i32 0, i32 1, !dbg !277
+react
+RecordDefineEvent: UoV:  %36 = load i32, i32* %react, align 4, !dbg !277
+RecordDefineEvent: Inst:  %36 = load i32, i32* %react, align 4, !dbg !277
+
+RecordDefineEvent: UoV:  %chkptrtoint32 = ptrtoint i8* %37 to i64
+RecordDefineEvent: Inst:  %chkptrtoint32 = ptrtoint i8* %37 to i64
+RecordDefineEvent: UoV:  %call40 = call i32 @strcmp(i8* %37, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !288
+RecordDefineEvent: Inst:  %call40 = call i32 @strcmp(i8* %37, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !288
+
+RecordDefineEvent: UoV:  %chkptrtoint8 = ptrtoint %struct.RoutedDevice* %38 to i64
+RecordDefineEvent: Inst:  %chkptrtoint8 = ptrtoint %struct.RoutedDevice* %38 to i64
+RecordDefineEvent: UoV:  %targetDevice43 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %38, i32 0, i32 0, !dbg !294
+RecordDefineEvent: Inst:  %targetDevice43 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %38, i32 0, i32 0, !dbg !294
+targetDevice43
+RecordDefineEvent: UoV:  %39 = load i32, i32* %targetDevice43, align 8, !dbg !294
+RecordDefineEvent: Inst:  %39 = load i32, i32* %targetDevice43, align 8, !dbg !294
+
+RecordDefineEvent: UoV:  %chkptrtoint6 = ptrtoint %struct.RoutedDevice* %40 to i64
+RecordDefineEvent: Inst:  %chkptrtoint6 = ptrtoint %struct.RoutedDevice* %40 to i64
+RecordDefineEvent: UoV:  %react45 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %40, i32 0, i32 1, !dbg !298
+RecordDefineEvent: Inst:  %react45 = getelementptr inbounds %struct.RoutedDevice, %struct.RoutedDevice* %40, i32 0, i32 1, !dbg !298
+react45
+RecordDefineEvent: UoV:  %41 = load i32, i32* %react45, align 4, !dbg !298
+RecordDefineEvent: Inst:  %41 = load i32, i32* %react45, align 4, !dbg !298
+
+RecordDefineEvent: UoV:  %chkptrtoint40 = ptrtoint i8* %42 to i64
+RecordDefineEvent: Inst:  %chkptrtoint40 = ptrtoint i8* %42 to i64
+RecordDefineEvent: UoV:  %call53 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.15, i32 0, i32 0), i8* %42), !dbg !308
+RecordDefineEvent: Inst:  %call53 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.15, i32 0, i32 0), i8* %42), !dbg !308
+
+RecordDefineEvent: UoV:  %chkptrtoint38 = ptrtoint i8* %48 to i64
+RecordDefineEvent: Inst:  %chkptrtoint38 = ptrtoint i8* %48 to i64
+RecordDefineEvent: UoV:  %call63 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.16, i32 0, i32 0), i32 %46, i32 %47, i8* %48), !dbg !327
+RecordDefineEvent: Inst:  %call63 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.16, i32 0, i32 0), i32 %46, i32 %47, i8* %48), !dbg !327
+
+RecordDefineEvent: UoV:  call void @llvm.memcpy.p0i8.p0i8.i64(i8* %0, i8* getelementptr inbounds ([96 x i8], [96 x i8]* @main.data, i32 0, i32 0), i64 96, i32 1, i1 false), !dbg !142
+RecordDefineEvent: Inst:  call void @llvm.memcpy.p0i8.p0i8.i64(i8* %0, i8* getelementptr inbounds ([96 x i8], [96 x i8]* @main.data, i32 0, i32 0), i64 96, i32 1, i1 false), !dbg !142
+arraydecay
+RecordDefineEvent: UoV:  call void @listen_to_events(i8* %arraydecay, i32 0, i32 0, i8* null), !dbg !156
+RecordDefineEvent: Inst:  call void @listen_to_events(i8* %arraydecay, i32 0, i32 0, i8* null), !dbg !156
+
+define_event_count: 8
+
+use_event_count: 29
+process function: listen_to_events
+process function: react_to_pattern
+process function: main

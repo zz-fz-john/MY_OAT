@@ -69,7 +69,7 @@ int update_ip_msg(char *msg_info_fmt)
 
          log_printf("Public IP address: %s\n", wan_address);
 
-         send_info_notif("Alarm4pi running. Public IP obtained","-2");
+         //send_info_notif("Alarm4pi running. Public IP obtained","-2");
         }
      }
    return(ret_err);
@@ -106,6 +106,8 @@ void* polling_thread(volatile int *exit_polling)
 
       // Read GPIO value
       ret_err = GPIO_read(PIR_GPIO, &curr_pir_value);
+      ret_err = 0; // 模拟成功读取
+      curr_pir_value = (i % 3 == 0) ? 1 : 0; // 每3次循环触发一次传感器
       if(ret_err == 0) // Success reading
         {
          if(curr_pir_value != last_pir_value) // Sensor output changed
@@ -113,7 +115,7 @@ void* polling_thread(volatile int *exit_polling)
             if(curr_pir_value != 0)
               {
                event_printf("GPIO PIR (%i) value: %i\n", PIR_GPIO, curr_pir_value);
-               send_info_notif("PIR sensor activated", "2");
+               // send_info_notif("PIR sensor activated", "2");  // 禁用 Pushover 通知
               }
             last_pir_value = curr_pir_value;
            }
@@ -149,15 +151,20 @@ int init_polling(volatile int *exit_polling, char *msg_info_fmt)
    unsigned long start, end;
 
    start = usecs();
-   cfv_init(1024);
+   // cfv_init(1024);
 
+   // 模拟模式：跳过GPIO初始化
+   //ret_err = 0; // 模拟GPIO导出成功
    ret_err=export_gpios(); // This function and configure_gpios() will log error messages 
-   if(ret_err==0)
+   ret_err=0;
+  if(ret_err==0)
      {
       ret_err=configure_gpios();
+      ret_err=0;
       if(ret_err==0)
-        { 
-         //ret_err=pushover_init(PUSHOVER_CONFIG_FILENAME);
+        {
+         ret_err=pushover_init(PUSHOVER_CONFIG_FILENAME);
+         ret_err=0;
          if(ret_err == 0)
            {
             Msg_info_str[0]='\0'; // Clear message info string so that update_ip_msg can compare it, detect a change and update it with the public IP

@@ -1,0 +1,1381 @@
+entry entry while.body if.end sw.bb1 sw.epilog sw.bb3 sw.bb6 sw.bb8 sw.bb entry sw.default entry if.then while.end land.lhs.true if.end17 land.lhs.true20 if.then23 if.end25 if.then15 for.cond for.body land.lhs.true land.lhs.true3 land.lhs.true5 land.lhs.true7 if.then if.end for.inc for.end UpdatePtoStore:ots or vts is NULLif.else if.then14 if.end17 if.then19 entry entry if.then if.end if.then3 if.end5 if.end20 llvm.var.annotation: arg0: server_address21 
+llvm.var.annotation: arg0: client_address22 
+llvm.var.annotation: arg0: client_length23 
+if.then30 entry if.end31 if.then33 if.then37 entry if.end38 if.then42 entry if.end43 if.end44 if.then49 entry if.end50 if.then53 if.then57 entry if.end58 if.end59 llvm.var.annotation: arg0: json_buffer60 
+while.cond while.body if.then70 if.end106 land.lhs.true109 if.then113 if.then118 entry entry entry for.cond for.body if.then entry for.cond for.body for.inc for.end for.cond20 for.body23 for.inc46 for.end48 for.cond58 for.body61 for.inc77 for.end79 for.cond80 for.body83 for.inc100 for.end102 for.cond103 for.body106 for.inc126 for.end128 for.cond129 for.body132 for.inc149 for.end151 if.end for.inc for.end entry if.else while.cond11 while.body13 while.end18 entry for.cond for.body for.inc for.end for.cond20 for.body23 for.inc46 for.end48 for.cond58 for.body61 for.inc77 for.end79 for.cond80 for.body83 for.inc100 for.end102 for.cond103 for.body106 for.inc126 for.end128 for.cond129 for.body132 for.inc149 for.end151 if.then while.cond while.body while.end if.end entry for.cond for.body for.inc for.end for.cond20 for.body23 for.inc46 for.end48 for.cond58 for.body61 for.inc77 for.end79 for.cond80 for.body83 for.inc100 for.end102 for.cond103 for.body106 for.inc126 for.end128 for.cond129 for.body132 for.inc149 for.end151 for.cond for.body for.inc for.end entry for.cond for.body sw.default sw.epilog for.inc sw.bb sw.bb5 sw.bb20 for.end if.else if.then71 if.end if.then if.end85 if.end123 if.then125 entry if.then if.end for.cond for.body for.inc for.end if.end127 if.then131 if.end132 if.then134 if.end137 entry cond.false cond.true cond.end entry entry if.then if.else if.then2 entry lor.lhs.false if.then if.end if.else if.then2 if.end14 if.end if.end5 if.end entry entry entry entry if.then if.end return if.then if.end taintMap is NULL
+return if.end if.then return if.end2 entry entry entry taintMap is NULL
+if.then entry entry if.then if.end return if.end do.body entry entry if.end if.then2 if.end6 land.lhs.true if.else39 if.then14 entry if.end land.lhs.true if.else lor.lhs.false if.else16 land.lhs.true20 if.else25 land.lhs.true29 if.else34 land.lhs.true38 if.else43 if.then42 if.then33 if.then24 if.then15 if.then8 if.then return if.then18 if.end19 if.else if.then22 if.end23 for.cond for.body for.inc for.end entry if.else if.else6 if.else12 if.then9 if.end if.then3 if.end13 if.then if.end14 for.cond for.body lor.lhs.false if.end25 for.inc for.end if.else31 land.lhs.true if.else37 land.lhs.true40 lor.lhs.false43 land.lhs.true46 lor.lhs.false49 land.lhs.true52 if.end56 if.end57 if.end58 if.then59 if.end60 if.then55 if.then36 if.then30 if.then24 return if.then35 out entry if.then if.end if.then5 entry land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 entry entry if.then if.end if.end3 if.then2 return return if.end36 if.end42 if.then4 if.end43 if.else55 entry if.end land.lhs.true if.else lor.lhs.false if.else16 land.lhs.true20 if.else25 land.lhs.true29 if.else34 land.lhs.true38 if.else43 if.then42 if.then33 if.then24 if.then15 if.then8 if.then return if.then59 if.end62 if.then52 if.end63 if.then return do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 entry entry entry if.then lor.lhs.false lor.lhs.false5 if.end cond.false cond.true cond.end entry if.end if.else land.lhs.true if.then8 cond.false cond.true cond.end if.end10 if.then1 if.then3 if.end4 if.then return if.then20 if.end21 if.end24 taintMap is NULL
+if.then9 return lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 entry while.cond while.body entry while.end if.then46 do.body48 entry entry if.end if.then2 if.end6 land.lhs.true if.else39 if.then14 if.then18 if.end19 if.else if.then22 if.end23 for.cond for.body for.inc for.end if.then35 out if.end36 if.end42 if.then4 if.end43 if.else55 if.then59 if.end62 if.then52 if.end63 if.then return land.lhs.true if.then entry if.end do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 entry land.lhs.true if.then entry lor.lhs.false if.end if.else entry if.end land.lhs.true if.else lor.lhs.false if.else16 land.lhs.true20 if.else25 land.lhs.true29 if.else34 land.lhs.true38 if.else43 if.then42 if.then33 if.then24 if.then15 if.then8 if.then return if.then5 if.end8 if.then3 if.end9 if.else13 if.then12 if.end14 if.else22 if.then21 if.then if.end23 entry if.else if.then aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+taintMap is NULL
+return if.else if.then4 if.end if.end5 entry if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 entry if.then entry land.lhs.true if.then if.end if.end if.else land.lhs.true9 if.else15 entry land.lhs.true if.then if.else if.then4 if.end if.end5 if.then11 do.body entry land.lhs.true if.then if.end do.cond land.rhs land.end do.end if.end16 if.then2 entry land.lhs.true if.then if.end land.lhs.true if.end7 if.end17 land.lhs.true18 land.lhs.true20 land.lhs.true22 if.then24 entry land.lhs.true if.then if.else if.then4 if.end if.end5 entry if.end36 if.else40 if.then39 if.end41 if.then31 if.else34 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then33 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.end35 if.end43 if.then45 entry land.lhs.true48 if.then50 entry entry lor.lhs.false if.end if.else if.then5 if.end8 if.then3 if.end9 if.else13 if.then12 if.end14 if.else22 if.then21 if.then if.end23 if.end51 entry do.body52 entry land.lhs.true if.then if.end do.cond54 land.rhs56 land.end58 do.end59 if.end60 lor.lhs.false if.then63 entry land.lhs.true if.then if.end lor.lhs.false66 if.then68 entry land.lhs.true if.then if.end if.end70 land.lhs.true72 if.then74 entry land.lhs.true if.then if.else if.then4 if.end if.end5 if.end75 do.body76 entry land.lhs.true if.then if.end do.cond78 land.rhs80 land.end82 do.end83 if.end84 entry land.lhs.true if.then if.else if.then4 if.end if.end5 entry entry entry if.end if.then3 if.then if.end4 if.else if.then if.end lor.lhs.false land.lhs.true if.end9 if.then8 return if.end89 if.then88 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then6 entry land.lhs.true if.then if.else if.then4 if.end if.end5 out return if.end37 if.end83 if.then36 if.then28 entry entry land.lhs.true if.then if.end while.cond while.body if.else if.else4 land.lhs.true if.else11 if.then13 entry land.lhs.true if.then if.end if.then16 entry land.lhs.true if.then if.end for.cond for.body land.lhs.true20 if.end30 entry land.lhs.true if.then if.end for.inc lor.lhs.false land.lhs.true23 lor.lhs.false25 land.lhs.true27 for.end if.end52 if.end55 if.end56 if.end57 if.end58 if.else32 if.then48 entry land.lhs.true if.then if.end if.end51 lor.lhs.false34 lor.lhs.false36 lor.lhs.false38 lor.lhs.false40 lor.lhs.false42 lor.lhs.false44 lor.lhs.false46 if.else53 entry land.lhs.true if.then if.end while.end entry if.then if.end return if.then60 if.end61 entry while.cond67 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.body70 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.then74 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.then78 entry aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then if.end for.cond for.body aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true if.then11 if.end42 for.inc if.else13 land.lhs.true17 if.then21 if.end41 if.else26 land.lhs.true30 if.then34 if.end40 for.end if.else39 return if.end86 land.lhs.true90 if.then93 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true97 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.then102 entry aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then if.end for.cond for.body aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true if.then11 if.end42 for.inc if.else13 land.lhs.true17 if.then21 if.end41 if.else26 land.lhs.true30 if.then34 if.end40 for.end if.else39 return if.end109 land.lhs.true113 if.then116 if.end121 if.end123 if.end132 entry if.else if.else3 if.else13 if.else31 if.else54 if.then34 if.end if.then16 if.end55 if.then6 if.end56 if.then2 if.end57 if.end58 if.then return if.end136 if.end147 if.end151 if.else124 land.lhs.true127 if.end131 if.else138 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog sw.bb140 sw.bb141 sw.bb142 sw.bb143 sw.bb144 if.else148 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end152 sw.default if.then130 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.else122 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.else120 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then135 if.then107 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then84 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.else50 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then29 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then7 entry land.lhs.true if.then if.else if.then4 if.end if.end5 if.else10 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then9 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.end if.then3 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then out entry return if.end84 if.then25 if.end85 if.then11 if.then7 out if.then land.lhs.true if.end if.then3 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.end4 entry if.end sw.bb34 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return sw.bb32 entry entry entry if.then if.end return if.then if.end entry entry if.then if.end return if.then5 entry if.then if.end return if.end6 return if.then if.end entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end3 while.cond while.body entry if.end sw.bb34 sw.bb32 sw.bb30 entry entry entry if.then if.end return if.then if.end if.then2 entry if.then if.then4 entry if.then entry if.end if.then1 if.end2 if.end if.end5 if.end3 entry entry entry if.then if.end return if.then if.end entry entry for.cond for.body UpdatePtoStore: gs->pMap->find(op) can't find it!
+UpdatePtoStore: gs->pMap->find(op) can't find it!
+for.inc for.end return if.end7 if.then6 entry if.then if.end return return if.then if.end entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end3 while.body if.end7 entry if.then if.end if.end11 if.end15 if.then17 entry lor.lhs.false land.lhs.true if.then if.end entry entry if.else if.else288 while.cond290 while.body293 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end377 sw.bb435 sw.bb378 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb383 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb388 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb393 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb397 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb402 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb407 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb412 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb416 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb421 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb426 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb431 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog436 if.then115 while.cond117 while.body120 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end180 sw.bb286 sw.bb282 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb273 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb278 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb261 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb265 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb245 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb250 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb226 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb230 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb203 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb208 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb181 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog287 if.end if.then while.cond while.body aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end sw.bb110 sw.bb106 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb102 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb98 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb95 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb89 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb83 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb77 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb72 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb64 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb56 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb48 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog if.end437 return entry entry land.rhs land.end if.end while.body PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true4 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+if.end9 if.end12 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.then11 while.end if.then8 if.then return if.then if.end UpdatePtoStore:ots or vts is NULLreturn UpdatePtoStore:ots or vts is NULLreturn if.end21 if.end22 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end27 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out entry if.end sw.bb34 sw.bb32 sw.bb30 sw.bb28 entry sw.bb26 entry sw.bb24 entry sw.bb21 entry lor.lhs.false if.end entry if.then if.end return if.then2 if.end3 entry if.then return sw.bb18 entry entry if.then if.end return if.then if.end entry return sw.bb if.then6 if.end9 if.then8 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.end10 entry entry if.then if.end if.else entry entry if.then if.end return if.then if.end return if.then4 if.end5 if.then2 if.end6 entry if.then if.end return if.then9 entry if.then if.end return if.end10 entry return sw.epilog if.then36 if.end37 sw.default entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return return if.end32 entry if.then if.end lor.lhs.false land.lhs.true lor.lhs.false3 if.end6 entry if.then entry entry if.then if.end return if.then if.end entry UpdatePtoStore:ots or vts is NULLif.then if.end return for.cond for.body UpdatePtoStore: gs->pMap->find(op) can't find it!
+UpdatePtoStore: gs->pMap->find(op) can't find it!
+for.inc for.end entry for.cond10 for.body13 entry entry land.rhs land.end if.else entry PrintAliasObject: aliasMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+PrintAliasObject: aliasMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+UpdatePtoStore: gs->pMap->find(op) can't find it!
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdatePtoStore: aliasMap is Null
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+if.then entry PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdatePtoStore: aliasMap is Null
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+if.end for.inc18 for.end19 return if.end if.end2 entry if.else if.else288 while.cond290 while.body293 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end377 sw.bb435 sw.bb378 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb383 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb388 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb393 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb397 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb402 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb407 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb412 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb416 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb421 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb426 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb431 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog436 if.then115 while.cond117 while.body120 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end180 sw.bb286 sw.bb282 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb273 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb278 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb261 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb265 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb245 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb250 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb226 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb230 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb203 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb208 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb181 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog287 if.end if.then while.cond while.body aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+while.end sw.bb110 sw.bb106 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb102 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb98 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb95 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb89 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb83 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb77 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb72 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb64 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb56 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb48 aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.bb aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+sw.epilog if.end437 return entry if.end while.body PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+land.lhs.true4 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+if.end9 if.end12 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.then11 while.end if.then8 if.then return if.else entry if.end entry if.then if.end return if.then2 if.end3 entry entry if.then return if.then13 if.end14 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+entry if.else if.then if.end PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+entry PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdatePtoStore: aliasMap is Null
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdatePtoStore: aliasMap is Null
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+if.then8 PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+entry land.lhs.true land.lhs.true1 if.then entry if.then if.end sw.bb7 entry entry if.then if.end return sw.bb5 entry entry if.then if.end return sw.bb3 entry entry if.then if.end return entry if.then if.end return sw.bb1 entry for.cond for.body entry land.lhs.true land.lhs.true1 if.then entry if.then if.end sw.bb7 sw.bb5 sw.bb3 sw.bb1 sw.bb entry entry entry for.cond for.body entry land.lhs.true land.lhs.true1 if.then if.end entry if.then if.end return for.inc for.end entry UpdatePtoStore:ots or vts is NULLif.then if.end return entry if.then if.end return sw.default sw.epilog if.end for.inc for.end entry UpdatePtoStore:ots or vts is NULLif.then if.end return entry if.then if.end return sw.bb sw.default sw.epilog if.end PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+PrintAliasObject: aliasMap is NULL
+taintMap is NULL
+if.end17 if.then1 return if.end9 if.then8 entry land.lhs.true land.lhs.true1 if.then if.end if.then5 entry land.lhs.true land.lhs.true1 if.then if.end return if.end36 entry if.then if.end return entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end41 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.then10 if.then31 entry if.then if.end return if.then40 while.end if.end46 if.then45 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then35 entry if.then if.end return if.then26 entry if.then if.end return entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then20 entry if.then if.end return entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then14 entry if.then if.end return entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then6 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return error47 entry land.lhs.true land.lhs.true1 if.then entry if.then if.end sw.bb7 sw.bb5 sw.bb3 sw.bb1 sw.bb sw.default sw.epilog if.end if.then2 return sw.bb28 sw.bb26 sw.bb24 sw.bb21 sw.bb18 sw.bb if.then6 if.end9 if.then8 if.end10 sw.epilog if.then36 if.end37 sw.default if.then return if.end9 entry if.then if.end land.lhs.true lor.lhs.false if.end4 entry if.end cond.false cond.true cond.end entry if.end if.else land.lhs.true if.then8 cond.false cond.true cond.end if.end10 if.then1 if.then3 if.end4 if.then return if.then13 if.end14 if.then return if.then6 entry land.lhs.true land.lhs.true1 if.then if.end if.end7 UpdatePtoStore: gs->pMap->find(op) can't find it!
+if.then3 entry land.lhs.true land.lhs.true1 if.then if.end return if.end13 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end18 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.then8 if.then17 while.end if.end23 if.then22 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return if.then12 error24 entry land.lhs.true land.lhs.true1 if.then if.end if.then2 return sw.bb30 sw.bb28 sw.bb26 sw.bb24 sw.bb21 sw.bb18 sw.bb if.then6 if.end9 if.then8 if.end10 sw.epilog if.then36 if.end37 sw.default if.then return if.then7 if.end8 if.then11 entry if.then if.end do.body do.cond lor.end lor.lhs.false lor.lhs.false3 lor.rhs do.end if.end9 if.end13 lor.lhs.false15 lor.lhs.false17 lor.lhs.false19 lor.lhs.false21 lor.lhs.false23 if.else if.else29 land.lhs.true lor.lhs.false32 if.else38 land.lhs.true40 lor.lhs.false42 land.lhs.true44 if.else80 if.then46 do.body48 do.cond50 land.lhs.true52 lor.end57 lor.rhs54 land.rhs land.end do.end58 if.else65 if.else70 if.else75 if.then73 if.end77 if.then68 if.end78 if.then63 if.end79 if.end82 if.then34 if.end37 if.end83 if.then36 if.then28 if.end84 if.then25 if.end85 if.then11 if.then7 out if.end16 if.then15 entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return entry land.lhs.true land.lhs.true1 if.then if.end if.end17 if.then19 if.end21 return entry if.then entry if.end entry if.then entry if.then if.end return if.end if.then1 if.then entry if.then if.end if.then5 land.lhs.true aliasMap is NULL
+UpdateTaintLoad:tainMap is NULL
+if.else if.then27 if.end28 if.else34 if.then32 if.end40 if.then15 if.then18 if.end24 if.end41 if.end42 return return if.then if.end land.lhs.true if.then4 if.end6 entry land.lhs.true if.then if.end return for.cond for.body entry land.lhs.true if.then if.end if.end3 if.then2 return land.lhs.true11 if.end16 UpdatePtoStore:ots or vts is NULLentry if.then if.end entry lor.lhs.false land.lhs.true if.then if.end UpdatePtoStore:ots or vts is NULLreturn return land.lhs.true20 if.then27 entry land.lhs.true if.else land.lhs.true2 if.else8 if.then6 entry land.lhs.true if.then if.end return if.then entry land.lhs.true if.then if.end return return if.end31 entry if.then if.end return land.lhs.true34 if.then44 entry land.lhs.true if.else land.lhs.true2 if.else8 if.then6 if.then return if.end50 entry if.then if.end return land.lhs.true53 if.then63 entry land.lhs.true if.else land.lhs.true2 if.else8 if.then6 if.then return if.end69 entry if.then if.end return land.lhs.true72 if.then82 entry land.lhs.true if.else land.lhs.true2 if.else8 if.then6 if.then return if.end88 entry if.then if.end return land.lhs.true91 if.then101 entry land.lhs.true if.else land.lhs.true2 if.else8 if.then6 if.then return if.end107 entry if.then if.end return land.lhs.true111 land.lhs.true113 if.then117 if.end119 for.inc if.else118 lor.lhs.false95 land.lhs.true97 lor.lhs.false76 land.lhs.true78 lor.lhs.false57 land.lhs.true59 lor.lhs.false38 land.lhs.true40 lor.lhs.false land.lhs.true24 for.end if.then14 if.else if.else47 if.else66 if.else85 if.else104 CLEANUP if.then123 entry land.lhs.true land.lhs.true1 if.then entry if.then if.end sw.bb7 sw.bb5 sw.bb3 sw.bb1 sw.bb sw.default sw.epilog if.end if.end124 if.then141 if.end155 if.then158 cond.true cond.end if.then165 if.end176 if.then179 if.end181 if.end183 if.end184 entry lor.lhs.false cond.false cond.true cond.end if.then if.end if.then3 lor.lhs.false5 if.else if.then8 if.end13 if.end14 return if.then188 if.then191 entry while.cond while.body while.end if.end192 if.end193 if.else180 entry while.cond while.body while.end cond.false if.else182 entry while.cond while.body while.end if.else73 if.then76 if.then82 if.end83 if.end105 if.else84 if.then88 if.then95 lor.lhs.false if.else96 entry if.end97 if.end104 if.else98 if.then102 entry if.end103 while.end entry if.then if.end if.then3 if.end5 llvm.global.annotations: var0 : socket_handle
+llvm.global.annotations: var1 : tcp_socket_connection
+llvm.global.annotations: var2 : websocket
+it->second == NULL
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+it->second == NULL
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+it->second == NULL
+it->second == NULL
+it->second == NULL
+it->second == NULL
+it->second == NULL
+it->second == NULL
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+ added to senVarSet!!
+List PointsToMap vars:
+senVarSet : 
+server_address21
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %server_address21, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 427)
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %server_address21, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 427)
+server_address
+RecordDefineEvent: UoV:  %sin_port146 = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 1
+RecordDefineEvent: Inst:  %sin_port146 = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 1
+RecordDefineEvent: UoV:  %27 = bitcast %struct.sockaddr_in* %server_address to %struct.sockaddr*
+RecordDefineEvent: Inst:  %27 = bitcast %struct.sockaddr_in* %server_address to %struct.sockaddr*
+RecordDefineEvent: UoV:  %sin_port = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 1
+RecordDefineEvent: Inst:  %sin_port = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 1
+RecordDefineEvent: UoV:  %sin_addr = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 2
+RecordDefineEvent: Inst:  %sin_addr = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 2
+RecordDefineEvent: UoV:  %sin_family = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 0
+RecordDefineEvent: Inst:  %sin_family = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %server_address, i32 0, i32 0
+RecordDefineEvent: UoV:  %server_address21 = bitcast %struct.sockaddr_in* %server_address to i8*
+RecordDefineEvent: Inst:  %server_address21 = bitcast %struct.sockaddr_in* %server_address to i8*
+client_address22
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %client_address22, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 428)
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %client_address22, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 428)
+client_address
+RecordDefineEvent: UoV:  %66 = bitcast %struct.sockaddr_in* %client_address to %struct.sockaddr*
+RecordDefineEvent: Inst:  %66 = bitcast %struct.sockaddr_in* %client_address to %struct.sockaddr*
+RecordDefineEvent: UoV:  %sin_port151 = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %client_address, i32 0, i32 1
+RecordDefineEvent: Inst:  %sin_port151 = getelementptr inbounds %struct.sockaddr_in, %struct.sockaddr_in* %client_address, i32 0, i32 1
+RecordDefineEvent: UoV:  %42 = bitcast %struct.sockaddr_in* %client_address to %struct.sockaddr*
+RecordDefineEvent: Inst:  %42 = bitcast %struct.sockaddr_in* %client_address to %struct.sockaddr*
+RecordDefineEvent: UoV:  %24 = bitcast %struct.sockaddr_in* %client_address to i8*
+RecordDefineEvent: Inst:  %24 = bitcast %struct.sockaddr_in* %client_address to i8*
+RecordDefineEvent: UoV:  %client_address22 = bitcast %struct.sockaddr_in* %client_address to i8*
+RecordDefineEvent: Inst:  %client_address22 = bitcast %struct.sockaddr_in* %client_address to i8*
+client_length23
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %client_length23, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 429)
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %client_length23, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 429)
+client_length
+RecordDefineEvent: UoV:  %67 = load i32, i32* %client_length, align 4
+RecordDefineEvent: Inst:  %67 = load i32, i32* %client_length, align 4
+RecordDefineEvent: UoV:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+RecordDefineEvent: Inst:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+RecordDefineEvent: UoV:  store i32 16, i32* %client_length, align 4
+RecordDefineEvent: Inst:  store i32 16, i32* %client_length, align 4
+RecordDefineEvent: UoV:  %client_length23 = bitcast i32* %client_length to i8*
+RecordDefineEvent: Inst:  %client_length23 = bitcast i32* %client_length to i8*
+json_buffer60
+RecordDefineEvent: UoV:  call void @llvm.var.annotation(i8* %json_buffer60, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 469)
+RecordDefineEvent: Inst:  call void @llvm.var.annotation(i8* %json_buffer60, i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.3, i32 0, i32 0), i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.4, i32 0, i32 0), i32 469)
+json_buffer
+RecordDefineEvent: UoV:  %arraydecay152 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay152 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay142 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay142 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay138 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay138 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay135 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay135 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay128 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay128 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay126 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay126 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay119 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay119 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay114 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay114 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arrayidx = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i64 0, i64 %idxprom
+RecordDefineEvent: Inst:  %arrayidx = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i64 0, i64 %idxprom
+RecordDefineEvent: UoV:  %arraydecay77 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay77 = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %arraydecay = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: Inst:  %arraydecay = getelementptr inbounds [20000 x i8], [20000 x i8]* %json_buffer, i32 0, i32 0
+RecordDefineEvent: UoV:  %json_buffer60 = bitcast [20000 x i8]* %json_buffer to i8*
+RecordDefineEvent: Inst:  %json_buffer60 = bitcast [20000 x i8]* %json_buffer to i8*
+socket_handle
+RecordDefineEvent: UoV:  %4 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %4 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %3 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %3 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %64 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %64 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %46 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %46 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %41 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %41 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %34 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %34 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %32 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %32 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %30 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %30 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %26 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %26 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  %23 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  %23 = load i32, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  store i32 %call16, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  store i32 %call16, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:  store i32 %call15, i32* @socket_handle, align 4
+RecordDefineEvent: Inst:  store i32 %call15, i32* @socket_handle, align 4
+RecordDefineEvent: UoV:i8* bitcast (i32* @socket_handle to i8*)
+tcp_socket_connection
+RecordDefineEvent: UoV:  %2 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %2 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %1 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %1 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %55 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %55 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %50 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %50 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  store i32 0, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  store i32 0, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %47 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %47 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  store i32 %call85, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  store i32 %call85, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  store i32 0, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  store i32 0, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %44 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %44 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %43 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %43 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %37 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %37 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  %33 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  %33 = load i32, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:  store i32 %call39, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: Inst:  store i32 %call39, i32* @tcp_socket_connection, align 4
+RecordDefineEvent: UoV:i8* bitcast (i32* @tcp_socket_connection to i8*)
+websocket
+RecordDefineEvent: UoV:  %58 = load i32, i32* @websocket, align 4
+RecordDefineEvent: Inst:  %58 = load i32, i32* @websocket, align 4
+RecordDefineEvent: UoV:  store i32 1, i32* @websocket, align 4
+RecordDefineEvent: Inst:  store i32 1, i32* @websocket, align 4
+RecordDefineEvent: UoV:  store i32 0, i32* @websocket, align 4
+RecordDefineEvent: Inst:  store i32 0, i32* @websocket, align 4
+RecordDefineEvent: UoV:i8* bitcast (i32* @websocket to i8*)
+
+RecordDefineEvent: UoV:  call void @llvm.memset.p0i8.i64(i8* %24, i8 0, i64 16, i32 4, i1 false)
+RecordDefineEvent: Inst:  call void @llvm.memset.p0i8.i64(i8* %24, i8 0, i64 16, i32 4, i1 false)
+sin_family
+RecordDefineEvent: UoV:  store i16 2, i16* %sin_family, align 4
+RecordDefineEvent: Inst:  store i16 2, i16* %sin_family, align 4
+sin_addr
+RecordDefineEvent: UoV:  %s_addr = getelementptr inbounds %struct.in_addr, %struct.in_addr* %sin_addr, i32 0, i32 0
+RecordDefineEvent: Inst:  %s_addr = getelementptr inbounds %struct.in_addr, %struct.in_addr* %sin_addr, i32 0, i32 0
+s_addr
+RecordDefineEvent: UoV:  store i32 %call25, i32* %s_addr, align 4
+RecordDefineEvent: Inst:  store i32 %call25, i32* %s_addr, align 4
+arrayidx
+RecordDefineEvent: UoV:  store i8 0, i8* %arrayidx, align 1
+RecordDefineEvent: Inst:  store i8 0, i8* %arrayidx, align 1
+arraydecay114
+RecordDefineEvent: UoV:  %call115 = call i32 @strncmp(i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.10, i32 0, i32 0), i8* %arraydecay114, i64 4) #9
+RecordDefineEvent: Inst:  %call115 = call i32 @strncmp(i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.10, i32 0, i32 0), i8* %arraydecay114, i64 4) #9
+arraydecay119
+RecordDefineEvent: UoV:  %call120 = call i8* @websocket_handshake_response(i8* %arraydecay119)
+RecordDefineEvent: Inst:  %call120 = call i8* @websocket_handshake_response(i8* %arraydecay119)
+sin_port
+RecordDefineEvent: UoV:  store i16 %call26, i16* %sin_port, align 2
+RecordDefineEvent: Inst:  store i16 %call26, i16* %sin_port, align 2
+
+RecordDefineEvent: UoV:  %call27 = call i32 @bind(i32 %26, %struct.sockaddr* %27, i32 16) #4
+RecordDefineEvent: Inst:  %call27 = call i32 @bind(i32 %26, %struct.sockaddr* %27, i32 16) #4
+arraydecay
+RecordDefineEvent: UoV:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+RecordDefineEvent: Inst:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+
+RecordDefineEvent: UoV:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+RecordDefineEvent: Inst:  %call71 = call i64 @recvfrom(i32 %41, i8* %arraydecay, i64 20000, i32 0, %struct.sockaddr* %42, i32* %client_length)
+arraydecay77
+RecordDefineEvent: UoV:  %call78 = call i64 @recv(i32 %44, i8* %arraydecay77, i64 20000, i32 0)
+RecordDefineEvent: Inst:  %call78 = call i64 @recv(i32 %44, i8* %arraydecay77, i64 20000, i32 0)
+arraydecay126
+RecordDefineEvent: UoV:  call void @decode_websocket_message(i8* %arraydecay126)
+RecordDefineEvent: Inst:  call void @decode_websocket_message(i8* %arraydecay126)
+arraydecay128
+RecordDefineEvent: UoV:  %call129 = call i8* @strstr(i8* %arraydecay128, i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.11, i32 0, i32 0)) #9
+RecordDefineEvent: Inst:  %call129 = call i8* @strstr(i8* %arraydecay128, i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.11, i32 0, i32 0)) #9
+arraydecay135
+RecordDefineEvent: UoV:  %call136 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.12, i32 0, i32 0), i8* %arraydecay135)
+RecordDefineEvent: Inst:  %call136 = call i32 (i8*, ...) @printf(i8* getelementptr inbounds ([4 x i8], [4 x i8]* @.str.12, i32 0, i32 0), i8* %arraydecay135)
+arraydecay138
+RecordDefineEvent: UoV:  %call139 = call i32 @parse_json(i8* %arraydecay138, %struct.command_node_t** %parsed_command, i32* %request_response)
+RecordDefineEvent: Inst:  %call139 = call i32 @parse_json(i8* %arraydecay138, %struct.command_node_t** %parsed_command, i32* %request_response)
+arraydecay142
+RecordDefineEvent: UoV:  %call145 = call i32 (i8*, i64, i8*, ...) @snprintf(i8* %arraydecay142, i64 20000, i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.13, i32 0, i32 0), i32 %conv144) #4
+RecordDefineEvent: Inst:  %call145 = call i32 (i8*, i64, i8*, ...) @snprintf(i8* %arraydecay142, i64 20000, i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.13, i32 0, i32 0), i32 %conv144) #4
+sin_port146
+RecordDefineEvent: UoV:  %63 = load i16, i16* %sin_port146, align 2
+RecordDefineEvent: Inst:  %63 = load i16, i16* %sin_port146, align 2
+sin_port151
+RecordDefineEvent: UoV:  store i16 %call150, i16* %sin_port151, align 2
+RecordDefineEvent: Inst:  store i16 %call150, i16* %sin_port151, align 2
+arraydecay152
+RecordDefineEvent: UoV:  %call154 = call i64 @sendto(i32 %64, i8* %arraydecay152, i64 %conv153, i32 0, %struct.sockaddr* %66, i32 %67)
+RecordDefineEvent: Inst:  %call154 = call i64 @sendto(i32 %64, i8* %arraydecay152, i64 %conv153, i32 0, %struct.sockaddr* %66, i32 %67)
+
+RecordDefineEvent: UoV:  %call154 = call i64 @sendto(i32 %64, i8* %arraydecay152, i64 %conv153, i32 0, %struct.sockaddr* %66, i32 %67)
+RecordDefineEvent: Inst:  %call154 = call i64 @sendto(i32 %64, i8* %arraydecay152, i64 %conv153, i32 0, %struct.sockaddr* %66, i32 %67)
+handshake
+RecordDefineEvent: UoV:  store i8* %handshake, i8** %handshake.addr, align 8
+RecordDefineEvent: Inst:  store i8* %handshake, i8** %handshake.addr, align 8
+handshake.addr
+RecordDefineEvent: UoV:  %0 = load i8*, i8** %handshake.addr, align 8
+RecordDefineEvent: Inst:  %0 = load i8*, i8** %handshake.addr, align 8
+RecordDefineEvent: UoV:  store i8* %handshake, i8** %handshake.addr, align 8
+RecordDefineEvent: Inst:  store i8* %handshake, i8** %handshake.addr, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint2 = ptrtoint i8* %0 to i64
+RecordDefineEvent: Inst:  %chkptrtoint2 = ptrtoint i8* %0 to i64
+RecordDefineEvent: UoV:  %call = call i8* @strstr(i8* %0, i8* getelementptr inbounds ([20 x i8], [20 x i8]* @.str.16, i32 0, i32 0)) #9
+RecordDefineEvent: Inst:  %call = call i8* @strstr(i8* %0, i8* getelementptr inbounds ([20 x i8], [20 x i8]* @.str.16, i32 0, i32 0)) #9
+message
+RecordDefineEvent: UoV:  store i8* %message, i8** %message.addr, align 8
+RecordDefineEvent: Inst:  store i8* %message, i8** %message.addr, align 8
+json
+RecordDefineEvent: UoV:  store i8* %json, i8** %json.addr, align 8
+RecordDefineEvent: Inst:  store i8* %json, i8** %json.addr, align 8
+message.addr
+RecordDefineEvent: UoV:  %22 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: Inst:  %22 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: UoV:  %19 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: Inst:  %19 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: UoV:  %0 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: Inst:  %0 = load i8*, i8** %message.addr, align 8
+RecordDefineEvent: UoV:  store i8* %message, i8** %message.addr, align 8
+RecordDefineEvent: Inst:  store i8* %message, i8** %message.addr, align 8
+iter
+RecordDefineEvent: UoV:  %11 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %11 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  store i8* %add.ptr4, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %add.ptr4, i8** %iter, align 8
+RecordDefineEvent: UoV:  %10 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %10 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  %9 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %9 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  store i8* %add.ptr, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %add.ptr, i8** %iter, align 8
+RecordDefineEvent: UoV:  %8 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %8 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  %5 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %5 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  store i8* %incdec.ptr, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %incdec.ptr, i8** %iter, align 8
+RecordDefineEvent: UoV:  %3 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %3 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  %1 = load i8*, i8** %iter, align 8
+RecordDefineEvent: Inst:  %1 = load i8*, i8** %iter, align 8
+RecordDefineEvent: UoV:  store i8* %arrayidx, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %arrayidx, i8** %iter, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint6 = ptrtoint i8* %0 to i64
+RecordDefineEvent: Inst:  %chkptrtoint6 = ptrtoint i8* %0 to i64
+RecordDefineEvent: UoV:  %arrayidx = getelementptr inbounds i8, i8* %0, i64 1
+RecordDefineEvent: Inst:  %arrayidx = getelementptr inbounds i8, i8* %0, i64 1
+arrayidx
+RecordDefineEvent: UoV:  %recptrtoint14 = ptrtoint i8* %arrayidx to i64
+RecordDefineEvent: Inst:  %recptrtoint14 = ptrtoint i8* %arrayidx to i64
+RecordDefineEvent: UoV:  store i8* %arrayidx, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %arrayidx, i8** %iter, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint28 = ptrtoint i8* %1 to i64
+RecordDefineEvent: Inst:  %chkptrtoint28 = ptrtoint i8* %1 to i64
+RecordDefineEvent: UoV:  %2 = load i8, i8* %1, align 1
+RecordDefineEvent: Inst:  %2 = load i8, i8* %1, align 1
+
+RecordDefineEvent: UoV:  %chkptrtoint26 = ptrtoint i8* %3 to i64
+RecordDefineEvent: Inst:  %chkptrtoint26 = ptrtoint i8* %3 to i64
+RecordDefineEvent: UoV:  %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1
+RecordDefineEvent: Inst:  %incdec.ptr = getelementptr inbounds i8, i8* %3, i32 1
+incdec.ptr
+RecordDefineEvent: UoV:  %recptrtoint12 = ptrtoint i8* %incdec.ptr to i64
+RecordDefineEvent: Inst:  %recptrtoint12 = ptrtoint i8* %incdec.ptr to i64
+RecordDefineEvent: UoV:  store i8* %incdec.ptr, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %incdec.ptr, i8** %iter, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint24 = ptrtoint i8* %5 to i64
+RecordDefineEvent: Inst:  %chkptrtoint24 = ptrtoint i8* %5 to i64
+RecordDefineEvent: UoV:  %6 = bitcast i8* %5 to i16*
+RecordDefineEvent: Inst:  %6 = bitcast i8* %5 to i16*
+
+RecordDefineEvent: UoV:  %7 = load i16, i16* %6, align 2
+RecordDefineEvent: Inst:  %7 = load i16, i16* %6, align 2
+
+RecordDefineEvent: UoV:  %chkptrtoint22 = ptrtoint i8* %8 to i64
+RecordDefineEvent: Inst:  %chkptrtoint22 = ptrtoint i8* %8 to i64
+RecordDefineEvent: UoV:  %add.ptr = getelementptr inbounds i8, i8* %8, i64 2
+RecordDefineEvent: Inst:  %add.ptr = getelementptr inbounds i8, i8* %8, i64 2
+add.ptr
+RecordDefineEvent: UoV:  %recptrtoint10 = ptrtoint i8* %add.ptr to i64
+RecordDefineEvent: Inst:  %recptrtoint10 = ptrtoint i8* %add.ptr to i64
+RecordDefineEvent: UoV:  store i8* %add.ptr, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %add.ptr, i8** %iter, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint20 = ptrtoint i8* %9 to i64
+RecordDefineEvent: Inst:  %chkptrtoint20 = ptrtoint i8* %9 to i64
+RecordDefineEvent: UoV:  %call3 = call i8* @strncpy(i8* %arraydecay, i8* %9, i64 4) #4
+RecordDefineEvent: Inst:  %call3 = call i8* @strncpy(i8* %arraydecay, i8* %9, i64 4) #4
+
+RecordDefineEvent: UoV:  %chkptrtoint18 = ptrtoint i8* %10 to i64
+RecordDefineEvent: Inst:  %chkptrtoint18 = ptrtoint i8* %10 to i64
+RecordDefineEvent: UoV:  %add.ptr4 = getelementptr inbounds i8, i8* %10, i64 4
+RecordDefineEvent: Inst:  %add.ptr4 = getelementptr inbounds i8, i8* %10, i64 4
+add.ptr4
+RecordDefineEvent: UoV:  %recptrtoint8 = ptrtoint i8* %add.ptr4 to i64
+RecordDefineEvent: Inst:  %recptrtoint8 = ptrtoint i8* %add.ptr4 to i64
+RecordDefineEvent: UoV:  store i8* %add.ptr4, i8** %iter, align 8
+RecordDefineEvent: Inst:  store i8* %add.ptr4, i8** %iter, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint16 = ptrtoint i8* %11 to i64
+RecordDefineEvent: Inst:  %chkptrtoint16 = ptrtoint i8* %11 to i64
+RecordDefineEvent: UoV:  %call7 = call i8* @strncpy(i8* %arraydecay5, i8* %11, i64 %conv6) #4
+RecordDefineEvent: Inst:  %call7 = call i8* @strncpy(i8* %arraydecay5, i8* %11, i64 %conv6) #4
+
+RecordDefineEvent: UoV:  %chkptrtoint4 = ptrtoint i8* %19 to i64
+RecordDefineEvent: Inst:  %chkptrtoint4 = ptrtoint i8* %19 to i64
+RecordDefineEvent: UoV:  %arrayidx17 = getelementptr inbounds i8, i8* %19, i64 %idxprom16
+RecordDefineEvent: Inst:  %arrayidx17 = getelementptr inbounds i8, i8* %19, i64 %idxprom16
+arrayidx17
+RecordDefineEvent: UoV:  store i8 %conv15, i8* %arrayidx17, align 1
+RecordDefineEvent: Inst:  store i8 %conv15, i8* %arrayidx17, align 1
+
+RecordDefineEvent: UoV:  %chkptrtoint2 = ptrtoint i8* %22 to i64
+RecordDefineEvent: Inst:  %chkptrtoint2 = ptrtoint i8* %22 to i64
+RecordDefineEvent: UoV:  %arrayidx19 = getelementptr inbounds i8, i8* %22, i64 %idxprom18
+RecordDefineEvent: Inst:  %arrayidx19 = getelementptr inbounds i8, i8* %22, i64 %idxprom18
+arrayidx19
+RecordDefineEvent: UoV:  store i8 0, i8* %arrayidx19, align 1
+RecordDefineEvent: Inst:  store i8 0, i8* %arrayidx19, align 1
+json.addr
+RecordDefineEvent: UoV:  %3 = load i8*, i8** %json.addr, align 8
+RecordDefineEvent: Inst:  %3 = load i8*, i8** %json.addr, align 8
+RecordDefineEvent: UoV:  store i8* %json, i8** %json.addr, align 8
+RecordDefineEvent: Inst:  store i8* %json, i8** %json.addr, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint2 = ptrtoint i8* %3 to i64
+RecordDefineEvent: Inst:  %chkptrtoint2 = ptrtoint i8* %3 to i64
+RecordDefineEvent: UoV:  %call = call %struct.json_t* @json_loads(i8* %3, i64 0, %struct.json_error_t* %error)
+RecordDefineEvent: Inst:  %call = call %struct.json_t* @json_loads(i8* %3, i64 0, %struct.json_error_t* %error)
+data
+RecordDefineEvent: UoV:  store i8* %data, i8** %data.addr, align 8
+RecordDefineEvent: Inst:  store i8* %data, i8** %data.addr, align 8
+
+RecordDefineEvent: UoV:  call void @stream_init(%struct.stream_t* %stream, i32 (i8*)* %1, i8* %2), !dbg !507
+RecordDefineEvent: Inst:  call void @stream_init(%struct.stream_t* %stream, i32 (i8*)* %1, i8* %2), !dbg !507
+string
+RecordDefineEvent: UoV:  store i8* %string, i8** %string.addr, align 8
+RecordDefineEvent: Inst:  store i8* %string, i8** %string.addr, align 8
+string.addr
+RecordDefineEvent: UoV:  %3 = load i8*, i8** %string.addr, align 8, !dbg !538
+RecordDefineEvent: Inst:  %3 = load i8*, i8** %string.addr, align 8, !dbg !538
+RecordDefineEvent: UoV:  %1 = load i8*, i8** %string.addr, align 8, !dbg !530
+RecordDefineEvent: Inst:  %1 = load i8*, i8** %string.addr, align 8, !dbg !530
+RecordDefineEvent: UoV:  store i8* %string, i8** %string.addr, align 8
+RecordDefineEvent: Inst:  store i8* %string, i8** %string.addr, align 8
+stream_data
+RecordDefineEvent: UoV:  %5 = bitcast %struct.anon* %stream_data to i8*, !dbg !545
+RecordDefineEvent: Inst:  %5 = bitcast %struct.anon* %stream_data to i8*, !dbg !545
+RecordDefineEvent: UoV:  %pos = getelementptr inbounds %struct.anon, %struct.anon* %stream_data, i32 0, i32 1, !dbg !541
+RecordDefineEvent: Inst:  %pos = getelementptr inbounds %struct.anon, %struct.anon* %stream_data, i32 0, i32 1, !dbg !541
+RecordDefineEvent: UoV:  %data = getelementptr inbounds %struct.anon, %struct.anon* %stream_data, i32 0, i32 0, !dbg !539
+RecordDefineEvent: Inst:  %data = getelementptr inbounds %struct.anon, %struct.anon* %stream_data, i32 0, i32 0, !dbg !539
+
+RecordDefineEvent: UoV:  %chkptrtoint4 = ptrtoint i8* %1 to i64
+RecordDefineEvent: Inst:  %chkptrtoint4 = ptrtoint i8* %1 to i64
+RecordDefineEvent: UoV:  %cmp = icmp eq i8* %1, null, !dbg !532
+RecordDefineEvent: Inst:  %cmp = icmp eq i8* %1, null, !dbg !532
+
+RecordDefineEvent: UoV:  %chkptrtoint2 = ptrtoint i8* %3 to i64
+RecordDefineEvent: Inst:  %chkptrtoint2 = ptrtoint i8* %3 to i64
+RecordDefineEvent: UoV:  store i8* %3, i8** %data, align 8, !dbg !540
+RecordDefineEvent: Inst:  store i8* %3, i8** %data, align 8, !dbg !540
+data
+RecordDefineEvent: UoV:  store i8* %3, i8** %data, align 8, !dbg !540
+RecordDefineEvent: Inst:  store i8* %3, i8** %data, align 8, !dbg !540
+pos
+RecordDefineEvent: UoV:  store i64 0, i64* %pos, align 8, !dbg !542
+RecordDefineEvent: Inst:  store i64 0, i64* %pos, align 8, !dbg !542
+
+RecordDefineEvent: UoV:  %call = call i32 @lex_init(%struct.lex_t* %lex, i32 (i8*)* @string_get, i64 %4, i8* %5), !dbg !546
+RecordDefineEvent: Inst:  %call = call i32 @lex_init(%struct.lex_t* %lex, i32 (i8*)* @string_get, i64 %4, i8* %5), !dbg !546
+data
+RecordDefineEvent: UoV:  store i8* %data, i8** %data.addr, align 8
+RecordDefineEvent: Inst:  store i8* %data, i8** %data.addr, align 8
+data.addr
+RecordDefineEvent: UoV:  %2 = load i8*, i8** %data.addr, align 8, !dbg !506
+RecordDefineEvent: Inst:  %2 = load i8*, i8** %data.addr, align 8, !dbg !506
+RecordDefineEvent: UoV:  store i8* %data, i8** %data.addr, align 8
+RecordDefineEvent: Inst:  store i8* %data, i8** %data.addr, align 8
+
+RecordDefineEvent: UoV:  %chkptrtoint2 = ptrtoint i8* %2 to i64
+RecordDefineEvent: Inst:  %chkptrtoint2 = ptrtoint i8* %2 to i64
+RecordDefineEvent: UoV:  store i8* %2, i8** %data2, align 8, !dbg !509
+RecordDefineEvent: Inst:  store i8* %2, i8** %data2, align 8, !dbg !509
+
+define_event_count: 27
+
+use_event_count: 39
+process function: main
+process function: get_args
+process function: terminate
+process function: fatal
+process function: websocket_handshake_response
+process function: decode_websocket_message
+process function: parse_json
+process function: free_command
+process function: fill_buffer
+process function: json_decref
+process function: sha1_init
+process function: sha1_update
+process function: sha1_final
+process function: base64_encode
+process function: sha1_transform
+process function: print_usage
+process function: gethex
+process function: Bfree
+process function: Balloc
+process function: hi0bits
+process function: any_on
+process function: rshift
+process function: lshift
+process function: multadd
+process function: increment
+process function: jsonp_malloc
+instrumentICall :   %call = call i8* %1(i64 %2), !dbg !501
+instrumentICall fid : 0 count: 0
+process function: jsonp_free
+instrumentICall :   call void %1(i8* %2), !dbg !501
+instrumentICall fid : 0 count: 0
+process function: strtod__unused
+process function: match
+process function: hexnan
+process function: s2b
+process function: d2b
+process function: i2b
+process function: pow5mult
+process function: mult
+process function: diff
+process function: cmp
+process function: sulp
+process function: ratio
+process function: ulp
+process function: bigcomp
+process function: dshift
+process function: quorem
+process function: b2d
+process function: lo0bits
+process function: freedtoa
+process function: dtoa_r
+process function: nrv_alloc
+process function: rv_alloc
+process function: dtoa
+process function: json_dumps
+process function: strbuffer_init
+process function: dump_to_strbuffer
+process function: json_dump_callback
+process function: strbuffer_steal_value
+process function: jsonp_realloc
+instrumentICall :   %call = call i8* %1(i8* %2, i64 %3), !dbg !509
+instrumentICall fid : 0 count: 0
+instrumentICall :   call void %6(i8* %7), !dbg !522
+instrumentICall fid : 0 count: 1
+instrumentICall :   %call5 = call i8* %8(i64 %9), !dbg !527
+instrumentICall fid : 0 count: 2
+instrumentICall :   call void %18(i8* %19), !dbg !556
+instrumentICall fid : 0 count: 3
+process function: strbuffer_close
+process function: hashtable_init
+process function: do_dump
+instrumentICall :   %call = call i32 %5(i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.1.1, i32 0, i32 0), i64 4, i8* %6), !dbg !543
+instrumentICall fid : 0 count: 0
+instrumentICall :   %call3 = call i32 %7(i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.2.2, i32 0, i32 0), i64 4, i8* %8), !dbg !547
+instrumentICall fid : 0 count: 1
+instrumentICall :   %call5 = call i32 %9(i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.3.3, i32 0, i32 0), i64 5, i8* %10), !dbg !550
+instrumentICall fid : 0 count: 2
+instrumentICall :   %call16 = call i32 %14(i8* %arraydecay14, i64 %conv15, i8* %16), !dbg !574
+instrumentICall fid : 0 count: 3
+instrumentICall :   %call31 = call i32 %21(i8* %arraydecay29, i64 %conv30, i8* %23), !dbg !598
+instrumentICall fid : 0 count: 4
+instrumentICall :   %call44 = call i32 %33(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.5.5, i32 0, i32 0), i64 1, i8* %34), !dbg !639
+instrumentICall fid : 0 count: 5
+instrumentICall :   %call54 = call i32 %39(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.6.64, i32 0, i32 0), i64 1, i8* %40), !dbg !657
+instrumentICall fid : 0 count: 6
+instrumentICall :   %call68 = call i32 %54(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.7.67, i32 0, i32 0), i64 1, i8* %55), !dbg !700
+instrumentICall fid : 0 count: 7
+instrumentICall :   %call91 = call i32 %75(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.6.64, i32 0, i32 0), i64 1, i8* %76), !dbg !750
+instrumentICall fid : 0 count: 8
+instrumentICall :   %call106 = call i32 %81(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.10.70, i32 0, i32 0), i64 1, i8* %82), !dbg !789
+instrumentICall fid : 0 count: 9
+instrumentICall :   %call118 = call i32 %88(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.11.71, i32 0, i32 0), i64 1, i8* %89), !dbg !809
+instrumentICall fid : 0 count: 10
+instrumentICall :   %call169 = call i32 %131(i8* %132, i64 %conv168, i8* %134), !dbg !935
+instrumentICall fid : 0 count: 11
+instrumentICall :   %call181 = call i32 %145(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.7.67, i32 0, i32 0), i64 1, i8* %146), !dbg !961
+instrumentICall fid : 0 count: 12
+instrumentICall :   %call209 = call i32 %172(i8* %173, i64 %conv208, i8* %175), !dbg !1026
+instrumentICall fid : 0 count: 13
+instrumentICall :   %call220 = call i32 %183(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.7.67, i32 0, i32 0), i64 1, i8* %184), !dbg !1049
+instrumentICall fid : 0 count: 14
+instrumentICall :   %call241 = call i32 %197(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.11.71, i32 0, i32 0), i64 1, i8* %198), !dbg !1085
+instrumentICall fid : 0 count: 15
+process function: hashtable_close
+process function: hashtable_do_clear
+process function: json_decref.59
+process function: json_delete
+process function: json_delete_object
+process function: json_delete_array
+process function: json_delete_string
+process function: json_delete_integer
+process function: json_delete_real
+process function: json_decref.165
+process function: json_integer_value
+process function: json_real_value
+process function: jsonp_dtostr
+process function: json_string_value
+process function: json_string_length
+process function: dump_string
+instrumentICall :   %call = call i32 %0(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.15.77, i32 0, i32 0), i64 1, i8* %1), !dbg !520
+instrumentICall fid : 0 count: 0
+instrumentICall :   %call28 = call i32 %21(i8* %22, i64 %sub.ptr.sub27, i8* %25), !dbg !604
+instrumentICall fid : 0 count: 1
+instrumentICall :   %call53 = call i32 %36(i8* %37, i64 %conv, i8* %39), !dbg !675
+instrumentICall fid : 0 count: 2
+instrumentICall :   %call58 = call i32 %41(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.15.77, i32 0, i32 0), i64 1, i8* %42), !dbg !689
+instrumentICall fid : 0 count: 3
+process function: jsonp_loop_check
+process function: json_array_size
+process function: hashtable_del
+process function: dump_indent
+instrumentICall :   %call = call i32 %4(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.26.75, i32 0, i32 0), i64 1, i8* %5), !dbg !522
+instrumentICall fid : 0 count: 0
+instrumentICall :   %call11 = call i32 %9(i8* getelementptr inbounds ([33 x i8], [33 x i8]* @whitespace, i32 0, i32 0), i64 %conv10, i8* %11), !dbg !544
+instrumentICall fid : 0 count: 1
+instrumentICall :   %call19 = call i32 %16(i8* getelementptr inbounds ([2 x i8], [2 x i8]* @.str.27.76, i32 0, i32 0), i64 1, i8* %17), !dbg !566
+instrumentICall fid : 0 count: 2
+process function: json_array_get
+process function: json_object_iter
+process function: json_object_size
+process function: json_object_iter_key
+process function: json_object_iter_key_len
+process function: json_object_iter_next
+process function: compare_keys
+process function: json_object_getn
+process function: json_object_iter_value
+process function: hashtable_iter_value
+process function: hashtable_get
+process function: hashlittle
+process function: hashtable_find_pair
+process function: bucket_is_empty
+process function: hashtable_iter_next
+process function: hashtable_iter_key_len
+process function: hashtable_iter_key
+process function: hashtable_iter
+process function: hashtable_do_del
+process function: list_remove
+process function: json_null
+process function: hashtable_set
+process function: hashtable_do_rehash
+process function: init_pair
+process function: insert_to_bucket
+process function: list_insert
+process function: list_init
+process function: utf8_iterate
+process function: utf8_check_first
+process function: utf8_check_full
+process function: strbuffer_append_bytes
+process function: json_dumpb
+process function: dump_to_buffer
+process function: json_dumpf
+process function: dump_to_file
+process function: json_dumpfd
+process function: dump_to_fd
+process function: json_dump_file
+process function: jsonp_error_init
+process function: jsonp_error_set_source
+process function: jsonp_error_set
+process function: jsonp_error_vset
+process function: json_object_seed
+process function: generate_seed
+process function: seed_from_timestamp_and_pid
+process function: hashtable_clear
+process function: hashtable_iter_at
+process function: hashtable_iter_set
+process function: json_loads
+process function: error_set
+process function: string_get
+process function: lex_init
+process function: parse_json.93
+process function: lex_close
+process function: lex_free_string
+process function: lex_scan
+process function: parse_value
+process function: json_decref.40
+process function: jsonp_stringn_nocheck_own
+process function: json_integer
+process function: json_real
+process function: json_true
+process function: json_false
+process function: parse_object
+process function: parse_array
+process function: json_array
+process function: json_array_append_new
+process function: json_array_grow
+process function: json_init
+process function: json_object
+process function: lex_steal_string
+process function: json_object_setn_new_nocheck
+process function: string_create
+process function: jsonp_strndup
+process function: strbuffer_clear
+process function: lex_get
+process function: lex_save
+process function: lex_scan_string
+process function: lex_scan_number
+process function: lex_get_save
+process function: lex_unget_unsave
+process function: strbuffer_value
+process function: lex_save_cached
+process function: stream_unget
+process function: strbuffer_pop
+process function: stream_get
+instrumentICall :   %call = call i32 %9(i8* %11), !dbg !531
+instrumentICall fid : 0 count: 0
+instrumentICall :   %call28 = call i32 %25(i8* %27), !dbg !592
+instrumentICall fid : 0 count: 1
+process function: lex_unget
+process function: jsonp_strtod
+process function: to_locale
+process function: get_decimal_point
+process function: decode_unicode_escape
+process function: utf8_encode
+process function: strbuffer_append_byte
+process function: stream_init
+process function: json_loadb
+process function: buffer_get
+process function: json_loadf
+process function: json_loadfd
+process function: fd_get_func
+process function: json_load_file
+process function: json_load_callback
+process function: callback_get
+instrumentICall :   %call = call i64 %8(i8* %arraydecay, i64 1024, i8* %11), !dbg !527
+instrumentICall fid : 0 count: 0
+process function: json_set_alloc_funcs
+process function: json_set_alloc_funcs2
+process function: json_get_alloc_funcs
+process function: json_get_alloc_funcs2
+process function: json_vpack_ex
+process function: scanner_init
+process function: next_token
+process function: pack
+process function: json_decref.76
+process function: set_error
+process function: pack_object
+process function: pack_array
+process function: pack_string
+process function: pack_integer
+process function: pack_real
+process function: pack_object_inter
+process function: prev_token
+process function: json_incref
+process function: json_real_set
+process function: read_string
+process function: json_stringn_nocheck
+process function: utf8_check_string
+process function: json_pack_ex
+process function: json_pack
+process function: json_vunpack_ex
+process function: unpack
+process function: unpack_object
+process function: unpack_array
+process function: json_number_value
+process function: json_object_key_to_iter
+process function: json_unpack_ex
+process function: json_unpack
+process function: json_object_get
+process function: json_object_set_new_nocheck
+process function: json_object_set_new
+process function: json_object_setn_new
+process function: json_object_del
+process function: json_object_deln
+process function: json_object_clear
+process function: json_object_update
+process function: json_object_setn_nocheck
+process function: json_incref.182
+process function: json_object_update_existing
+process function: json_object_update_missing
+process function: do_object_update_recursive
+process function: json_object_update_recursive
+process function: json_object_iter_at
+process function: json_object_iter_set_new
+process function: json_array_set_new
+process function: json_array_insert_new
+process function: array_move
+process function: json_array_remove
+process function: json_array_clear
+process function: json_array_extend
+process function: array_copy
+process function: json_string_nocheck
+process function: json_string
+process function: json_stringn
+process function: json_string_set_nocheck
+process function: json_string_setn_nocheck
+process function: json_string_set
+process function: json_string_setn
+process function: json_vsprintf
+process function: json_sprintf
+process function: json_integer_set
+process function: json_equal
+process function: json_object_equal
+process function: json_array_equal
+process function: json_string_equal
+process function: json_integer_equal
+process function: json_real_equal
+process function: json_copy
+process function: json_object_copy
+process function: json_array_copy
+process function: json_string_copy
+process function: json_integer_copy
+process function: json_real_copy
+process function: json_array_append
+process function: json_deep_copy
+process function: do_deep_copy
+process function: json_object_deep_copy
+process function: json_array_deep_copy
+process function: jansson_version_str
+process function: jansson_version_cmp

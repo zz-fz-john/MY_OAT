@@ -23,7 +23,7 @@ make all
 mkdir OAT
 #运行
 #make -j12 run-only QEMU_VIRTFS_ENABLE=y CFG_CORE_ASLR=n QEMU_VIRTFS_HOST_DIR=$(pwd)/OAT
-#首先得复制啊rducopter相关文件到OAT文件夹中
+#首先得复制arducopter相关文件到OAT文件夹中
 cd /home/zrz0517/OPTEE_qemu/build/../out/bin && /home/zrz0517/OPTEE_qemu/build/../qemu/aarch64-softmmu/qemu-system-aarch64 \
 	-nographic \
 	-serial tcp:localhost:54320 -serial tcp:localhost:54321 \
