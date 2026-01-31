@@ -114,8 +114,9 @@ bool Nova::runOnModule(Module &M) {
 
     // initialize pointsto map
     InitializeGS(GS, M);
-
-    f = M.getFunction("main");
+    llvm::errs() << "After InitializeGS\n";
+    f = M.getFunction("_ZNK10AP_Mission21read_cmd_from_storageEtRNS_15Mission_CommandE");
+    llvm::errs() << "main function: " << *f << "\n";
     if (f == NULL)
         errs() << "f is NULL!" <<"\n";
     Traversal(GS, f);//从main函数开始遍历

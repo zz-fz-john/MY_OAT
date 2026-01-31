@@ -24,12 +24,12 @@ void cfv_ijmp(uint64_t target, uint64_t pc);
 void cfv_ret(uint64_t target, uint64_t pc);
 
 void __record_defevt(uint64_t addr, uint64_t val) {
-    debug_info("%s addr: %lx val: %lx\n", __func__, addr, val);
+    printf("%s addr: %lx val: %lx\n", __func__, addr, val);
     handle_event(CFV_EVENT_DATA_DEF, addr, val);
 }
 
 void __check_useevt(uint64_t addr, uint64_t val) {
-    debug_info("%s addr: %lx val: %lx\n", __func__, addr, val);
+    printf("%s addr: %lx val: %lx\n", __func__, addr, val);
     handle_event(CFV_EVENT_DATA_USE, addr, val);
 }
 
@@ -66,6 +66,7 @@ void cfv_icall(uint64_t target, uint64_t pc) {
 void cfv_ret(uint64_t target, uint64_t pc) {
     debug_info("%s dest: %lx src: %lx\n", __func__, target, pc);
     handle_event(CFV_EVENT_CTRL, pc, target);
+
 }
 
 void cfv_ijmp(uint64_t target, uint64_t pc) {
